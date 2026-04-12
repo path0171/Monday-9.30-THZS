@@ -59,7 +59,7 @@ These features for both the users and admins provide an accessible and efficient
 
 ## Information Architecture and Wireframes
 ### Sitemap - Zac, path0171
-![Pet Adoption Website Sitemap](Pet%20Adoption%20Website%20Sitemap.jpg)
+![Pet Adoption Website Sitemap](Group%20Work/Pet%20Adoption%20Sitemap%20Zac%20path0171.jpg)
 
 
 ### User flow diagram
