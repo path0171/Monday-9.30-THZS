@@ -2,7 +2,7 @@
 
 - **Authors**: Zachary Pathuis, Muhammad Saaim, Hiruna Ranawaka, Toby Dimmock
 - **FANs**: path0171, saai0013, rana0302, dimm0006
-- **Student IDs**: 2406751, 2390378, [Hiruna], 2405499
+- **Student IDs**: 2406751, 2390378, 2389284, 2405499
 - **Topic ID**: COMP1103
 
 <!--Create your UX Design Report in this file.-->
@@ -39,22 +39,22 @@ These features for both the users and admins provide an accessible and efficient
 
 
 ### User Persona's
-#### Luigio Colombo User Persona - Hiruna, rana0302
-![Luigio Colombo User Persona - Hiruna, rana0302](Hiruna/User%20Persona/Hiruna%20Persona%20Image%201.png)
-![](Hiruna/User%20Persona/Hiruna%20Persona%20Image%202.png)
-
-
-#### Jack User Persona - Saaim, saai0013
-![Jack User Persona - Saaim, saai0013](Saaim/USER%20PERSONA%20Image%20(Saaim-saai0013).png)
-
-
 #### Beth Miller User Persona - Zac, path0171
 ![Beth Miller User Persona - Zac, path0171](Zac%20-%20path0171/Persona/path0171%20-%20Beth%20Miller%20Persona%20Image%201.png)
 ![](Zac%20-%20path0171/Persona/path0171%20-%20Beth%20Miller%20Persona%20Image%202.png)
 
 
+#### Luigio Colombo User Persona - Hiruna, rana0302
+![Luigio Colombo User Persona - Hiruna, rana0302](Hiruna/User%20Persona/Hiruna%20Persona%20Image%201.png)
+![](Hiruna/User%20Persona/Hiruna%20Persona%20Image%202.png)
+
+
 #### Barbara Conners User Persona - Toby, dimm0006
 ![Barbara Conners User Persona - Toby, dimm0006](Toby/Toby%20-%20Persona.png)
+
+
+#### Jack User Persona - Saaim, saai0013
+![Jack User Persona - Saaim, saai0013](Saaim/USER%20PERSONA%20Image%20(Saaim-saai0013).png)
 
 
 ## Information Architecture and Wireframes
@@ -67,18 +67,67 @@ These features for both the users and admins provide an accessible and efficient
 ![Admin Sends Message to Customer User Flow Diagram - Zac, path0171](Zac%20-%20path0171/User%20flow%20diagram/path0171%20-%20Admin%20Sends%20Message%20to%20Customer%20User%20Flow%20Diagram%20Image.png)
 
 
-### Selecting a Pet - Hiruna, rana0302
+#### Selecting a Pet - Hiruna, rana0302
 ![Selecting a Pet User Flow Diagram - Hiruna, rana0302](Hiruna/User%20Flow/Userflow%20Diagram%20Image.png)
 
 
+#### Finding a Adoption Centre Location - Toby, dimm0006
+![Finding a Adoption Centre Location - Toby, dimm0006](Toby/Toby%20-%20Mapping.png)
+
+
+#### .... - Saaim, saai0013
+
+
 ### Wireframes
+#### Drawn Broswer Page + Admin Dashboard + Messages + Message Chat - Zac, path0171
+![Drawn Broswer Page + Admin Dashboard + Messages + Message Chat - Zac, path0171](Zac%20-%20path0171/Wireframes/Drawn%20Wireframes%20as%20Images/path0171%20-%20Broswer%20Page%20+%20Admin%20Dashboard%20+%20Messages%20+%20Message%20Chat%20Rough%20Drawings%20Image%201.png)
+![](Zac%20-%20path0171/Wireframes/Drawn%20Wireframes%20as%20Images/path0171%20-%20Broswer%20Page%20+%20Admin%20Dashboard%20+%20Messages%20+%20Message%20Chat%20Rough%20Drawings%20Image%202.png)
+![](Zac%20-%20path0171/Wireframes/Drawn%20Wireframes%20as%20Images/path0171%20-%20Broswer%20Page%20+%20Admin%20Dashboard%20+%20Messages%20+%20Message%20Chat%20Rough%20Drawings%20Image%203.png)
+![](Zac%20-%20path0171/Wireframes/Drawn%20Wireframes%20as%20Images/path0171%20-%20Broswer%20Page%20+%20Admin%20Dashboard%20+%20Messages%20+%20Message%20Chat%20Rough%20Drawings%20Image%204.png)
+
+
+#### Digital Broswer Page + Admin Dashboard + Messages + Message Chat - Zac, path0171
+![Digital Broswer Page + Admin Dashboard + Messages + Message Chat - Zac, path0171](Zac%20-%20path0171/Wireframes/Digital%20Wireframes%20as%20Images/path0171%20-%20Broswer%20Page%20+%20Admin%20Dashboard%20+%20Messages%20+%20Message%20Chat%20Digital%20Image%201.png)
+![](Zac%20-%20path0171/Wireframes/Digital%20Wireframes%20as%20Images/path0171%20-%20Broswer%20Page%20+%20Admin%20Dashboard%20+%20Messages%20+%20Message%20Chat%20Digital%20Image%202.png)
+![](Zac%20-%20path0171/Wireframes/Digital%20Wireframes%20as%20Images/path0171%20-%20Broswer%20Page%20+%20Admin%20Dashboard%20+%20Messages%20+%20Message%20Chat%20Digital%20Image%203.png)
+![](Zac%20-%20path0171/Wireframes/Digital%20Wireframes%20as%20Images/path0171%20-%20Broswer%20Page%20+%20Admin%20Dashboard%20+%20Messages%20+%20Message%20Chat%20Digital%20Image%204.png)
+
+
+#### - Hiruna, rana0302
+
+
+#### - Toby, dimm0006
+
+
+#### - Saaim, saai0013
 
 
 ### Storyboards
+#### - Zac, path0171
+
+
+#### - Hiruna, rana0302
+
+
+#### - Toby, dimm0006
+
+
+#### - Saaim, saai0013
 
 
 ## Predictive Analysis Summary
 ### GOMS/KLM analysis
+#### - Zac, path0171
+
+
+#### - Hiruna, rana0302
+
+
+#### - Toby, dimm0006
+
+
+#### - Saaim, saai0013
+
 
 ## References
 ### Photos/Images:
