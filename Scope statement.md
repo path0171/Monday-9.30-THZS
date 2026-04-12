@@ -1,0 +1,9 @@
+Zac - path0171
+
+Our website will be designed for those who live in South Australia and will provide many features that aid in connecting potential adopters with available pets in their area. Volunteers at the adoption centre will have admin access, which allows them to manage pet listings, messages and adoption forms. Adopters will have access to a user-friendly interface that allows browsing a wide range of pets across South Australia that contain relevant information such as breed, age, size, location and more. 
+
+Users will be able to sign in securely through two-factor authentication, and once in, will have access to many key features, such as the ability to save favourite pets, track their adoption applications, and complete an adoption form to apply for a pet, as well as update information or receive notifications for their adoption process. Other features will include the user’s ability to make donations to support the centre and to contact the administrators through a messaging system found on the contact page, where they can book an appointment to visit a pet in person.
+
+Administrators will also have access to a dedicated dashboard, where they can access all their admin abilities, serving as an efficient management platform within the website. Features will include the ability to add, edit and remove pet listings, review and respond to adoption applications, as well as communicate with users through the messages page. The dashboard’s home page will also include quick access to recent messages, applications and pet listings to streamline workflow.
+
+These features for both the users and admins provide an accessible and efficient platform that turns adopting a pet into a relatively simple task, while supporting communication between adopters and administrators.
