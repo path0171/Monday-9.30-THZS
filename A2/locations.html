@@ -24,8 +24,22 @@
         <li><a>Donate</a></li>
         <li><a>Settings</a></li>
     </nav>
-    <p>
-        <div id="location-container"></div>
-    </p>
+    <main>
+        <fieldset>
+            <label for="filter-type">Filter by type</label>
+            <select id="filter-type">
+                <option>All</option>
+                <option>All Pets</option>
+                <option>Big Pets Only</option>
+                <option>Small Pets Only</option>
+            </select>
+
+            <input type="text" placeholder="Search by name..." id="search-name">
+
+        </fieldset>    
+        <p>
+            <div id="location-container"></div>
+        </p>
+    </main>
 </body>
 </html>
