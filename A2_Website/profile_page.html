@@ -2,13 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta author="Saaim, saai0013" />
-    <meta description="Adopt It Pet Adoption Profile Page" />
+    <meta name="author" content="Saaim, saai0013" />
+    <meta name="description" content="Adopt It Pet Adoption Profile Page" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="item" content="item" />
     <title>Adopt It - Profile Page</title>
+
     <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/Saaim/profile_page.css" />
   </head>
+
   <body>
     <header>
       <div class="header-left">
@@ -17,10 +19,12 @@
         </a>
         <h1>Ad🤍pt It</h1>
       </div>
+
       <div class="header-right">
         <a href="profile_page.html">User Profile</a>
       </div>
     </header>
+
     <nav>
       <ul>
         <li><a href="browser_page.html">Browser Page</a></li>
@@ -28,8 +32,37 @@
         <li><a href="contact_us.html">Contact Us</a></li>
       </ul>
     </nav>
+
+    <main class="container profile-page">
+      <section class="profile-card">
+        <h2>User Profile</h2>
+        <p>Manage your personal details and adoption preferences.</p>
+
+        <div class="profile-info">
+          <h3>Personal Information</h3>
+          <p><strong>Name:</strong> Emi Cate</p>
+          <p><strong>Email:</strong> emi.cate@example.com</p>
+          <p><strong>Phone:</strong> 0412 333 678</p>
+        </div>
+
+        <div class="profile-info">
+          <h3>Adoption Preferences</h3>
+          <p><strong>Preferred Pet:</strong> Golden Retriever</p>
+          <p><strong>Living Type:</strong> House with Backyard</p>
+          <p><strong>Experience:</strong> Previously owned three dogs and volunteers at local shelters.</p>
+        </div>
+
+        <div class="profile-actions">
+          <a href="adoption_form.html" class="profile-button">Apply for Adoption</a>
+          <a href="browser_page.html" class="profile-button secondary">Browse Pets</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Adopt It Adoptions</p>
+    </footer>
+
+    <script src="scripts/Saaim/profile_page.js"></script>
   </body>
-  <footer>
-    <p>© 2026 Adopt It Adoptions</p>
-  </footer>
 </html>
