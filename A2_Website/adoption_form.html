@@ -8,6 +8,8 @@
     <meta name="item" content="item" />
     <title>Adopt It - Adoption Form</title>
     <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/saaim.css">
+    <script src="scripts/saaim.js"></script>
   </head>
   <body>
     <header>
@@ -30,8 +32,40 @@
         <li><a href="donate.html">Donate</a></li>
       </ul>
     </nav>
+      <main class="container adoption-page">
+        <section class="application-form-section">
+            <h2>Adoption Application Form</h2>
+            <p>Please complete this form to apply for adopting a pet.</p>
+
+           <form class="adoption-form" action="scripts/submit-form.php" method="POST">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="pet">Pet You Want to Adopt:</label>
+                <select id="pet" name="pet">
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="rabbit">Rabbit</option>
+                </select>
+
+                <label for="experience">Previous Pet Experience:</label>
+                <textarea id="experience" name="experience" rows="5"></textarea>
+
+                <button type="submit">Submit Application</button>
+            </form>
+        <section>
+    </main>
+<script src="scripts/saaim.js"></script>
+
   </body>
   <footer>
     <p>© 2026 Adopt It Adoptions</p>
   </footer>
 </html>
+
