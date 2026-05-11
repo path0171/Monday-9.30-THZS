@@ -9,6 +9,50 @@
   display: block;
   margin: 0 auto;
 }
+.impact-section {
+  text-align: center;
+  padding: 10px 20px;
+}
 
+.impact-section h2 {
+  color: rgb(233, 162, 61);
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-weight:bold;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  
+}
 
+.impact-section p {
+  font-size: 1.6rem;
+  margin-bottom: 5px;
+  font-weight:bold;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
 
+.impact-section a {
+  border-radius: 30px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  margin-top: 20px;
+  display: inline-block;
+  box-shadow: 0 10px 8px -5px rgba(0, 0, 0, 0.3);
+}
+
+.impact-section a:hover {
+  background-color: #fe8920;
+  color: white;
+}
+.impact-section h3 {
+  color: black;
+  font-size: 2.0rem;
+  margin-top: 20px;
+  font-weight:bold;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-style: italic;
+  
+}

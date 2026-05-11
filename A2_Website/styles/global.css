@@ -54,13 +54,14 @@ header {
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
-  border: 2px solid #fe8920;
+  box-shadow: 0 10px 8px -5px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
   padding: 6px 14px;
 }
 
 .header-right a:hover {
-  text-decoration: underline;
+  background-color: #fe8920;
+  color: white;
 }
 
 nav {
