@@ -1,7 +1,7 @@
 body {
   background: #ffffff;
   font-size: 14px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "inter", sans-serif;
 }
 
 .container {
@@ -56,7 +56,7 @@ input {
   padding: 6px 2px;
   background: transparent;
   font-size: 14px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "inter", sans-serif;
 }
 
 textarea {
@@ -68,7 +68,7 @@ textarea {
   box-sizing: border-box;
   background: transparent;
   font-size: 14px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "inter", sans-serif;
   resize: none;
 }
 
