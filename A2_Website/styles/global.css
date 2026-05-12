@@ -18,34 +18,17 @@ body {
 header {
   background-color: rgb(255, 255, 255);
   color: white;
-  padding: 10px 20px;
+  padding: 5px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header-left h1 {
-  color: #000000;
-  margin: 0;
-  font-size: 1.6rem;
-}
-
-.header-left {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.header-left img {
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
-}
-
-.header-icon {
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
+.header-logo {
+  height: 60px;
+  display: block;
+  width: auto;
+  cursor: pointer;
 }
 
 .header-right a {
