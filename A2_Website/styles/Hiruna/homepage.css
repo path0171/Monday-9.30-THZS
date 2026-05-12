@@ -1,6 +1,7 @@
 .main-content {
   text-align: center;
   padding: 0px 20px;
+  background-color: rgb(255, 235, 190);
 }
 
 .main-content img {
@@ -12,6 +13,7 @@
 .impact-section {
   text-align: center;
   padding: 10px 20px;
+  
 }
 
 .impact-section h2 {
@@ -47,7 +49,7 @@
   color: white;
 }
 .impact-section h3 {
-  color: black;
+  color: red;
   font-size: 2.0rem;
   margin-top: 20px;
   font-weight:bold;
@@ -55,4 +57,42 @@
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   font-style: italic;
   
+}
+.dog-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.dog-images img {
+  width: 350px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.partners-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.partners-section h4 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  font-weight:bold;
+  font-family: "Times New Roman", Times, serif;
+  
+}
+
+.partner-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.partner-logos img {
+  width: 150px;
+  height: auto;
 }
