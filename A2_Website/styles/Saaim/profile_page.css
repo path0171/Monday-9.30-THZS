@@ -6,70 +6,70 @@ Description: Styling for the user profile page.
 */
 
 .profile-page {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
 }
 
 .profile-card {
-    background-color: #ffffff;
-    padding: 35px;
-    border-radius: 10px;
-    border: 1px solid #dcdcdc;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding: 35px;
+  border-radius: 10px;
+  border: 1px solid #dcdcdc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .profile-card h2 {
-    margin-bottom: 10px;
-    font-size: 32px;
-    color: #2f6f4e;
+  margin-bottom: 10px;
+  font-size: 32px;
+  color: #2f6f4e;
 }
 
 .profile-card p {
-    margin-bottom: 15px;
-    line-height: 1.6;
+  margin-bottom: 15px;
+  line-height: 1.6;
 }
 
 .profile-info {
-    margin-top: 25px;
-    padding: 20px;
-    background-color: #f7f7f7;
-    border-radius: 8px;
-    border-left: 5px solid #2f6f4e;
+  margin-top: 25px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  border-left: 5px solid #2f6f4e;
 }
 
 .profile-info h3 {
-    margin-bottom: 15px;
-    color: #2f6f4e;
+  margin-bottom: 15px;
+  color: #2f6f4e;
 }
 
 .profile-info p {
-    margin: 8px 0;
+  margin: 8px 0;
 }
 
 .profile-actions {
-    margin-top: 30px;
-    display: flex;
-    gap: 15px;
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
 }
 
 .profile-button {
-    text-decoration: none;
-    background-color: #2f6f4e;
-    color: white;
-    padding: 12px 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+  text-decoration: none;
+  background-color: #2f6f4e;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 .profile-button:hover {
-    background-color: #25593f;
+  background-color: #25593f;
 }
 
 .profile-button.secondary {
-    background-color: #555555;
+  background-color: #555555;
 }
 
 .profile-button.secondary:hover {
-    background-color: #333333;
+  background-color: #333333;
 }

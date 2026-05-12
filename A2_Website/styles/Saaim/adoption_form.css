@@ -1,62 +1,58 @@
-
-
 .adoption-page {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
 }
 
 .application-form-section {
-    background-color: #ffffff;
-    padding: 30px;
-    border: 1px solid #cccccc;
-    border-radius: 8px;
+  background-color: #ffffff;
+  padding: 30px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
 }
 
 .application-form-section h2 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .application-form-section p {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .adoption-form {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .adoption-form label {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .adoption-form input,
 .adoption-form select,
 .adoption-form textarea {
-    padding: 10px;
-    border: 1px solid #999999;
-    border-radius: 5px;
-    font-size: 16px;
+  padding: 10px;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
 .adoption-form button {
-    margin-top: 15px;
-    padding: 12px;
-    background-color: #2f6f4e;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #2f6f4e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .adoption-form button:hover {
-    background-color: #25593f;
-
-
+  background-color: #25593f;
 }
 
 .application-form-section {
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
