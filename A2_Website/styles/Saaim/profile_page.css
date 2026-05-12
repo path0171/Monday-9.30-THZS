@@ -22,7 +22,7 @@ Description: Styling for the user profile page.
 .profile-card h2 {
   margin-bottom: 10px;
   font-size: 32px;
-  color: #2f6f4e;
+  color: #ef5518;
 }
 
 .profile-card p {
@@ -35,12 +35,12 @@ Description: Styling for the user profile page.
   padding: 20px;
   background-color: #f7f7f7;
   border-radius: 8px;
-  border-left: 5px solid #2f6f4e;
+  border-left: 5px solid #e49712;
 }
 
 .profile-info h3 {
   margin-bottom: 15px;
-  color: #2f6f4e;
+  color: #f58012;
 }
 
 .profile-info p {
@@ -55,7 +55,7 @@ Description: Styling for the user profile page.
 
 .profile-button {
   text-decoration: none;
-  background-color: #2f6f4e;
+  background-color: #ea8706;
   color: white;
   padding: 12px 20px;
   border-radius: 5px;
@@ -63,11 +63,11 @@ Description: Styling for the user profile page.
 }
 
 .profile-button:hover {
-  background-color: #25593f;
+  background-color: #e69209;
 }
 
 .profile-button.secondary {
-  background-color: #555555;
+  background-color: #ee8f12;
 }
 
 .profile-button.secondary:hover {
