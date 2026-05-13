@@ -1,5 +1,5 @@
 body {
-  background: #ffffff;
+  background: #ffe8cc;
   font-size: 14px;
   font-family: "inter", sans-serif;
 }
@@ -10,7 +10,7 @@ body {
 }
 
 .contact-box {
-  background: rgb(255, 208, 174);
+  background: rgb(255, 255, 255);
   display: flex;
   border-radius: 10px;
   overflow: hidden;
@@ -24,7 +24,7 @@ body {
 .contact-box-right {
   flex-basis: 40%;
   padding: 40px;
-  background: #f5a05a;
+  background: #ffa75a;
 }
 
 h1 {
