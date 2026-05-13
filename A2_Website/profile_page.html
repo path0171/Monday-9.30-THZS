@@ -38,18 +38,22 @@
     </nav>
 
     <main class="container profile-page">
-      <section class="profile-card">
-        <h2>User Profile</h2>
-        <p>Manage your personal details and adoption preferences.</p>
-
-        <div class="profile-info">
+      <section class="profile-hero">
+        <div></div>
+          <h2>User Profile</h2>
+          <p>Manage your personal details and adoption preferences.</p>
+        </div>
+        <div class="profile-avatar">👤</div>
+      </section>
+      <section class="profile-grid">
+        <section class="profile-card">
           <h3>Personal Information</h3>
           <p><strong>Name:</strong> Emi Cate</p>
           <p><strong>Email:</strong> emi.cate@example.com</p>
           <p><strong>Phone:</strong> 0412 333 678</p>
-        </div>
+        </section>
 
-        <div class="profile-info">
+        <section class="profile-card">
           <h3>Adoption Preferences</h3>
           <p><strong>Preferred Pet:</strong> Golden Retriever</p>
           <p><strong>Living Type:</strong> House with Backyard</p>
@@ -57,7 +61,20 @@
             <strong>Experience:</strong> Previously owned three dogs and
             worked at local shelters.
           </p>
-        </div>
+        </section>
+
+        <section class="profile-card status-card">
+          <h3>Application Status</h3>
+          <p><strong>Selected Pet:</strong> Dog</p>
+          <p><strong>Status:</strong> Pending Review</p>
+          <div class="status-bar">
+            <span></span>
+          </div>
+          <p class="small-note">Your application is currently being reviewed by the shelter team.</p>
+        </section>
+
+      <section class="profile-card">
+        <h3>Quick Actions</h3>
 
         <div class="profile-actions">
           <a href="adoption_form.html" class="profile-button"
