@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter", sans-serif;
+}
+
+body {
+  background-color: #ffe8cc;
+}
+
+#about-page-banner {
+  background-image: url("../../Images/Pet Images/Dogs/dog_background_about.jpg");
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  height: 300px;
+  width: 100%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 6px 4px -6px rgba(0, 0, 0, 0.1);
+}
+
+#about-banner-content {
+  text-align: center;
+  margin-top: 40px;
+  color: black;
+  padding: 20px;
+}
+
+#about-banner-content h1 {
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  font-size: 80px;
+}
+
+#about-banner-content p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#about-us-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#about-us-section1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 4px -6px rgba(0, 0, 0, 0.1);
+}
+
+#about-us-section1 h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#about-us-section1 .border-line {
+  width: 250px;
+  height: 3px;
+  border-radius: 20px;
+  background-color: #fe8920;
+  margin: 20px auto;
+}
+
+.about-section1-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
+.about-section1-image {
+  flex-shrink: 0;
+  width: 40%;
+  padding: 10px;
+}
+
+.about-section1-image img {
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+  width: 100%;
+}
+
+#about-us-section1 .about-text {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+#about-us-section2 h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#about-us-section2 {
+  text-align: center;
+  maring-top: 64px;
+  padding: 20px;
+}
+
+#about-team-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+}
+
+.border-line {
+  width: 300px;
+  height: 3px;
+  border-radius: 20px;
+  background-color: #fe8920;
+  margin: 20px auto;
+}
+
+.about-team-box {
+  padding: 30px;
+  margin: 20px;
+}
+
+.about-team-shape {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 6px 4px -6px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+}
+
+.about-team-shape img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.about-team-content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about-team-content h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.about-team-content p {
+  font-size: 16px;
+}
