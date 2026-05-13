@@ -8,6 +8,7 @@
     <meta name="item" content="item" />
     <title>Adopt It - Log In</title>
     <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/Hiruna/log_in.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
@@ -33,6 +34,43 @@
         <li><a href="contact_us.html">Contact Us</a></li>
       </ul>
     </nav>
+    <div class="signup-page">
+      <div class="signup-image">
+        <img src="images/log in page images/image.png" alt="Adopt a pet" />
+      </div>
+      <div class="signup-container">
+        <h6>Sign Up</h6>
+        <p>
+          By signing up you can save a list of your favourite pets, set email
+          notifications for new pets available for adoption and get exclusive
+          furry updates straight to your inbox 🐾
+        </p>
+
+        <label>Name</label>
+        <input type="text" id="name" placeholder="Enter your full name" />
+
+        <label>Email</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+
+        <label>Password</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+        />
+
+        <label>Confirm Password</label>
+        <input
+          type="password"
+          id="confirm-password"
+          placeholder="Confirm your password"
+        />
+
+        <p id="error-message"></p>
+        <button onclick="signup()">Sign me up!</button>
+        
+      </div>
+    </div>
     <footer>
       <div class="footer-content">
         <div class="footer-left">
@@ -86,4 +124,5 @@
       <p class="footer-copyright">© 2026 Adopt It Adoptions</p>
     </footer>
   </body>
+  <script src="scripts/Hiruna/log_in.js"></script>
 </html>
