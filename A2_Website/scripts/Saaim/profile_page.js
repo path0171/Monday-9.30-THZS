@@ -1,3 +1,13 @@
+const storedName = localStorage.getItem('userName');
+if (storedName) {
+    document.getElementById('profile-name').textContent = storedName;
+}
+
+function signOut() {
+    localStorage.removeItem('userName');
+    window.location.href = 'homepage.html';
+}
+
 const applyButton = document.querySelector(".profile-button");
 
 applyButton.addEventListener("click", function(event) {

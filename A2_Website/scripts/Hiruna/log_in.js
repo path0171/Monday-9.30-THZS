@@ -1,3 +1,7 @@
+if (localStorage.getItem('userName')) {
+    window.location.href = 'profile_page.html';
+}
+
 function signup() {
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
