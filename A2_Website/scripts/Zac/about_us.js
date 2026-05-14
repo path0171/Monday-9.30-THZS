@@ -1,3 +1,7 @@
+// Zac, path0171
+// About Us JS
+// Version 1.0.0
+
 var sections = document.querySelectorAll(".fade-in");
 
 var observer = new IntersectionObserver(function (entries) {

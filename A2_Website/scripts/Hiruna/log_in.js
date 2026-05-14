@@ -1,3 +1,7 @@
+// Hiruna, rana0302
+// Log In JS
+// Version 1.0.0
+
 if (localStorage.getItem('userName')) {
     window.location.href = 'profile_page.html';
 }
