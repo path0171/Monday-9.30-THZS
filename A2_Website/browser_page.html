@@ -8,6 +8,7 @@
     <meta name="item" content="item" />
     <title>Adopt It - Browser Page</title>
     <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/Zac/browser_page.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
@@ -33,6 +34,443 @@
         <li><a href="contact_us.html">Contact Us</a></li>
       </ul>
     </nav>
+    <main>
+      <div id="browser-heading">
+        <h1>Adoptable Pets</h1>
+      </div>
+
+      <div id="browser-layout">
+        <aside id="filter-panel">
+          <div id="filter-header">
+            <h3><i class="fa-solid fa-sliders"></i> Filters</h3>
+            <button id="reset-filters">Reset All</button>
+          </div>
+          <div id="filter-divider"></div>
+
+          <div class="filter-section">
+            <h4>SEARCH</h4>
+            <div class="search-box">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input
+                type="text"
+                id="search-input"
+                placeholder="Search name or breed..."
+              />
+            </div>
+          </div>
+
+          <div class="filter-section">
+            <h4>TYPE</h4>
+            <div class="filter-btn-group">
+              <button class="type-btn active" data-type="all">All</button>
+              <button class="type-btn" data-type="dogs">
+                <i class="fa-solid fa-dog"></i> Dog
+              </button>
+              <button class="type-btn" data-type="cats">
+                <i class="fa-solid fa-cat"></i> Cat
+              </button>
+              <button class="type-btn" data-type="birds">
+                <i class="fa-solid fa-dove"></i> Bird
+              </button>
+            </div>
+          </div>
+
+          <div class="filter-section">
+            <h4>LOCATION</h4>
+            <label class="checkbox-label">
+              <input
+                type="checkbox"
+                class="location-checkbox"
+                value="Adelaide City"
+              />
+              Adelaide City
+            </label>
+            <label class="checkbox-label">
+              <input
+                type="checkbox"
+                class="location-checkbox"
+                value="Norlunga"
+              />
+              Norlunga
+            </label>
+            <label class="checkbox-label">
+              <input
+                type="checkbox"
+                class="location-checkbox"
+                value="Glenelg"
+              />
+              Glenelg
+            </label>
+            <label class="checkbox-label">
+              <input
+                type="checkbox"
+                class="location-checkbox"
+                value="Mawson Lakes"
+              />
+              Mawson Lakes
+            </label>
+          </div>
+
+          <div class="filter-section">
+            <h4>GENDER</h4>
+            <div class="filter-btn-row">
+              <button class="gender-btn active" data-gender="all">All</button>
+              <button class="gender-btn" data-gender="male">Male</button>
+              <button class="gender-btn" data-gender="female">Female</button>
+            </div>
+          </div>
+        </aside>
+
+        <div id="browser-content">
+          <div id="pet-grid">
+            <div class="pet-type-section">
+              <h2><i class="fa-solid fa-dog"></i> Dogs</h2>
+              <div class="border-line"></div>
+              <div class="pet-row">
+                <a
+                  href="pet_selected.html"
+                  class="pet-card"
+                  data-name="max"
+                  data-breed="dachshund"
+                  data-type="dogs"
+                  data-gender="male"
+                  data-location="Adelaide City"
+                >
+                  <img
+                    src="Images/Pet Images/Dogs/dachshund_max.jpg"
+                    alt="Max"
+                  />
+                  <div class="pet-card-info">
+                    <h3>Max</h3>
+                    <p>Dachshund</p>
+                  </div>
+                </a>
+
+                <a
+                  href="pet_selected.html"
+                  class="pet-card"
+                  data-name="rocky"
+                  data-breed="french bulldog"
+                  data-type="dogs"
+                  data-gender="male"
+                  data-location="Glenelg"
+                >
+                  <img
+                    src="Images/Pet Images/Dogs/french_bulldog_rocky.jpg"
+                    alt="Rocky"
+                  />
+                  <div class="pet-card-info">
+                    <h3>Rocky</h3>
+                    <p>French Bulldog</p>
+                  </div>
+                </a>
+
+                <a
+                  href="pet_selected.html"
+                  class="pet-card"
+                  data-name="rusty"
+                  data-breed="german shepherd"
+                  data-type="dogs"
+                  data-gender="male"
+                  data-location="Norlunga"
+                >
+                  <img
+                    src="Images/Pet Images/Dogs/german_shepherd_rusty.jpg"
+                    alt="Rusty"
+                  />
+                  <div class="pet-card-info">
+                    <h3>Rusty</h3>
+                    <p>German Shepherd</p>
+                  </div>
+                </a>
+
+                <a
+                  href="pet_selected.html"
+                  class="pet-card"
+                  data-name="scout"
+                  data-breed="golden retriever"
+                  data-type="dogs"
+                  data-gender="male"
+                  data-location="Mawson Lakes"
+                >
+                  <img
+                    src="Images/Pet Images/Dogs/golden_retriever_scout.jpg"
+                    alt="Scout"
+                  />
+                  <div class="pet-card-info">
+                    <h3>Scout</h3>
+                    <p>Golden Retriever</p>
+                  </div>
+                </a>
+
+                <a
+                  href="pet_selected.html"
+                  class="pet-card"
+                  data-name="bailey"
+                  data-breed="labrador retriever"
+                  data-type="dogs"
+                  data-gender="female"
+                  data-location="Adelaide City"
+                >
+                  <img
+                    src="Images/Pet Images/Dogs/labrador_retriever_bailey.jpg"
+                    alt="Bailey"
+                  />
+                  <div class="pet-card-info">
+                    <h3>Bailey</h3>
+                    <p>Labrador Retriever</p>
+                  </div>
+                </a>
+
+                <a
+                  href="pet_selected.html"
+                  class="pet-card"
+                  data-name="daisy"
+                  data-breed="poodle"
+                  data-type="dogs"
+                  data-gender="female"
+                  data-location="Glenelg"
+                >
+                  <img
+                    src="Images/Pet Images/Dogs/poodle_daisy.jpg"
+                    alt="Daisy"
+                  />
+                  <div class="pet-card-info">
+                    <h3>Daisy</h3>
+                    <p>Poodle</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="pet-type-section">
+              <h2><i class="fa-solid fa-cat"></i> Cats</h2>
+              <div class="border-line"></div>
+              <div class="pet-row">
+                <a
+                  href="pet_selected.html"
+                  class="pet-card"
+                  data-name="jasper"
+                  data-breed="burmese"
+                  data-type="cats"
+                  data-gender="male"
+                  data-location="Norlunga"
+                >
+                  <img
+                    src="Images/Pet Images/Cats/burmese_jasper.jpg"
+                    alt="Jasper"
+                  />
+                  <div class="pet-card-info">
+                    <h3>Jasper</h3>
+                    <p>Burmese</p>
+                  </div>
+                </a>
+
+                <a
+                  href="pet_selected.html"
+                  class="pet-card"
+                  data-name="luna"
+                  data-breed="devon rex"
+                  data-type="cats"
+                  data-gender="female"
+                  data-location="Adelaide City"
+                >
+                  <img
+                    src="Images/Pet Images/Cats/devon_rex_luna.jpg"
+                    alt="Luna"
+                  />
+                  <div class="pet-card-info">
+                    <h3>Luna</h3>
+                    <p>Devon Rex</p>
+                  </div>
+                </a>
+
+                <a
+                  href="pet_selected.html"
+                  class="pet-card"
+                  data-name="salem"
+                  data-breed="persian"
+                  data-type="cats"
+                  data-gender="male"
+                  data-location="Mawson Lakes"
+                >
+                  <img
+                    src="Images/Pet Images/Cats/persian_salem.jpg"
+                    alt="Salem"
+                  />
+                  <div class="pet-card-info">
+                    <h3>Salem</h3>
+                    <p>Persian</p>
+                  </div>
+                </a>
+
+                <a
+                  href="pet_selected.html"
+                  class="pet-card"
+                  data-name="milo"
+                  data-breed="scottish fold"
+                  data-type="cats"
+                  data-gender="male"
+                  data-location="Glenelg"
+                >
+                  <img
+                    src="Images/Pet Images/Cats/scottish_fold_milo.jpg"
+                    alt="Milo"
+                  />
+                  <div class="pet-card-info">
+                    <h3>Milo</h3>
+                    <p>Scottish Fold</p>
+                  </div>
+                </a>
+
+                <a
+                  href="pet_selected.html"
+                  class="pet-card"
+                  data-name="willow"
+                  data-breed="siamese"
+                  data-type="cats"
+                  data-gender="female"
+                  data-location="Adelaide City"
+                >
+                  <img
+                    src="Images/Pet Images/Cats/siamese_willow.jpg"
+                    alt="Willow"
+                  />
+                  <div class="pet-card-info">
+                    <h3>Willow</h3>
+                    <p>Siamese</p>
+                  </div>
+                </a>
+
+                <a
+                  href="pet_selected.html"
+                  class="pet-card"
+                  data-name="nala"
+                  data-breed="sphynx"
+                  data-type="cats"
+                  data-gender="female"
+                  data-location="Norlunga"
+                >
+                  <img
+                    src="Images/Pet Images/Cats/sphynx_nala.jpg"
+                    alt="Nala"
+                  />
+                  <div class="pet-card-info">
+                    <h3>Nala</h3>
+                    <p>Sphynx</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="pet-type-section">
+              <h2><i class="fa-solid fa-dove"></i> Birds</h2>
+              <div class="border-line"></div>
+              <div class="pet-row">
+                <a
+                  href="pet_selected.html"
+                  class="pet-card"
+                  data-name="pico"
+                  data-breed="budgie"
+                  data-type="birds"
+                  data-gender="male"
+                  data-location="Mawson Lakes"
+                >
+                  <img
+                    src="Images/Pet Images/Birds/budgie_pico.jpg"
+                    alt="Pico"
+                  />
+                  <div class="pet-card-info">
+                    <h3>Pico</h3>
+                    <p>Budgie</p>
+                  </div>
+                </a>
+
+                <a
+                  href="pet_selected.html"
+                  class="pet-card"
+                  data-name="sunny"
+                  data-breed="canary"
+                  data-type="birds"
+                  data-gender="female"
+                  data-location="Adelaide City"
+                >
+                  <img
+                    src="Images/Pet Images/Birds/canarie_sunny.jpg"
+                    alt="Sunny"
+                  />
+                  <div class="pet-card-info">
+                    <h3>Sunny</h3>
+                    <p>Canary</p>
+                  </div>
+                </a>
+
+                <a
+                  href="pet_selected.html"
+                  class="pet-card"
+                  data-name="pebbles"
+                  data-breed="cockatiel"
+                  data-type="birds"
+                  data-gender="female"
+                  data-location="Glenelg"
+                >
+                  <img
+                    src="Images/Pet Images/Birds/cockatiel_pebbles.jpg"
+                    alt="Pebbles"
+                  />
+                  <div class="pet-card-info">
+                    <h3>Pebbles</h3>
+                    <p>Cockatiel</p>
+                  </div>
+                </a>
+
+                <a
+                  href="pet_selected.html"
+                  class="pet-card"
+                  data-name="kiwi"
+                  data-breed="conure"
+                  data-type="birds"
+                  data-gender="male"
+                  data-location="Norlunga"
+                >
+                  <img
+                    src="Images/Pet Images/Birds/conure_kiwi.jpg"
+                    alt="Kiwi"
+                  />
+                  <div class="pet-card-info">
+                    <h3>Kiwi</h3>
+                    <p>Conure</p>
+                  </div>
+                </a>
+
+                <a
+                  href="pet_selected.html"
+                  class="pet-card"
+                  data-name="skye"
+                  data-breed="macaw"
+                  data-type="birds"
+                  data-gender="female"
+                  data-location="Mawson Lakes"
+                >
+                  <img
+                    src="Images/Pet Images/Birds/macaw_skye.jpg"
+                    alt="Skye"
+                  />
+                  <div class="pet-card-info">
+                    <h3>Skye</h3>
+                    <p>Macaw</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <p id="no-results">
+            No pets match your search. Try adjusting your filters.
+          </p>
+        </div>
+      </div>
+    </main>
     <footer>
       <div class="footer-content">
         <div class="footer-left">
@@ -86,5 +524,6 @@
       <p class="footer-copyright">© 2026 Adopt It Adoptions</p>
     </footer>
     <script src="scripts/Zac/header.js"></script>
+    <script src="scripts/Zac/browser_page.js"></script>
   </body>
 </html>

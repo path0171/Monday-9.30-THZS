@@ -1,0 +1,292 @@
+body {
+  background-color: #ffe8cc;
+}
+
+#browser-heading {
+  text-align: center;
+  padding: 40px 20px 10px 20px;
+}
+
+#browser-heading h1 {
+  font-size: 54px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+#browser-layout {
+  display: flex;
+  gap: 24px;
+  padding: 20px 30px 40px 30px;
+  align-items: flex-start;
+}
+
+#filter-panel {
+  background-color: #ffffff;
+  box-shadow: 0 6px 4px -6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  width: 230px;
+  border-radius: 10px;
+  padding: 20px;
+  top: 76px;
+}
+
+#filter-header {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin-bottom: 6px;
+}
+
+#filter-divider {
+  width: 100%;
+  height: 3px;
+  margin-bottom: 18px;
+  border-radius: 20px;
+  background-color: #fe8920;
+}
+
+#filter-header h3 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#reset-filters {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #fe8920;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "inter", sans-serif;
+  padding: 0;
+  transition: color 0.2s ease;
+}
+
+#reset-filters:hover {
+  color: #e07510;
+  text-decoration: underline;
+}
+
+.filter-section {
+  margin-bottom: 20px;
+}
+
+.filter-section h4 {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: rgb(228, 228, 228);
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+.search-box i {
+  color: grey;
+  font-size: 13px;
+}
+
+.search-box input {
+  font-family: "inter", sans-serif;
+  font-size: 13px;
+  width: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+  color: black;
+}
+
+.filter-btn-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.type-btn {
+  background-color: rgb(228, 228, 228);
+  border: none;
+  border-radius: 8px;
+  padding: 8px 10px;
+  text-align: left;
+  font-size: 13px;
+  font-family: "inter", sans-serif;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+  color: grey;
+}
+
+.type-btn i {
+  margin-right: 6px;
+}
+
+.type-btn:hover {
+  background-color: #ffe8cc;
+  color: #fe8920;
+}
+
+.type-btn.active {
+  background-color: #fe8920;
+  color: white;
+  font-weight: bold;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-family: "inter", sans-serif;
+  color: black;
+  cursor: pointer;
+  margin-bottom: 8px;
+  user-select: none;
+}
+
+.checkbox-label:hover {
+  color: black;
+}
+
+.checkbox-label:active {
+  color: black;
+}
+
+.checkbox-label input[type="checkbox"] {
+  cursor: pointer;
+  accent-color: #fe8920;
+  width: 15px;
+  height: 15px;
+}
+
+.filter-btn-row {
+  display: flex;
+  gap: 8px;
+}
+
+.gender-btn {
+  flex: 1;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 6px;
+  font-size: 13px;
+  font-family: "inter", sans-serif;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+  color: black;
+}
+
+.gender-btn:hover {
+  background-color: #ffe8cc;
+  color: #fe8920;
+}
+
+.gender-btn.active {
+  background-color: #fe8920;
+  color: white;
+  font-weight: bold;
+}
+
+#browser-content {
+  flex: 1;
+  min-width: 0;
+}
+
+#pet-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.pet-type-section {
+  background-color: white;
+  box-shadow: 0 6px 4px -6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.pet-type-section h2 {
+  font-family: "inter", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fe8920;
+}
+
+.pet-type-section h2 i {
+  margin-right: 8px;
+}
+
+.pet-type-section .border-line {
+  width: auto;
+  height: 3px;
+  border-radius: 20px;
+  background-color: #fe8920;
+  margin: 12px 0 18px 0;
+}
+
+.pet-row {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 18px;
+}
+
+.pet-card {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 170px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.pet-card:hover {
+  transform: translateY(-5px);
+}
+
+.pet-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+}
+
+.pet-card-info {
+  padding: 10px 12px 12px 12px;
+}
+
+.pet-card-info h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.pet-card-info p {
+  font-size: 12px;
+  color: grey;
+}
+
+#no-results {
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  padding: 40px 20px;
+  color: grey;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 4px -6px rgba(0, 0, 0, 0.1);
+}
