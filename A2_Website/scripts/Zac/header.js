@@ -1,6 +1,6 @@
 // Zac, path0171
 // Header JS
-// Version 1.0.0
+// Version 1.0.4
 
 const userName = localStorage.getItem('userName');
 const headerLink = document.querySelector('.header-right a');

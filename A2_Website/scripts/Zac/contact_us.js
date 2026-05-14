@@ -1,6 +1,6 @@
 // Zac, path0171
 // Contact Us JS
-// Version 1.0.0
+// Version 1.0.2
 
 var form = document.getElementById("contact-form");
 var confirmation = document.getElementById("confirmation");

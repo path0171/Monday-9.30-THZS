@@ -1,6 +1,6 @@
 // Zac, path0171
 // Browser Page JS
-// Version 1.0.0
+// Version 1.0.2
 
 var searchInput = document.getElementById("search-input");
 var typeBtns = document.querySelectorAll(".type-btn");

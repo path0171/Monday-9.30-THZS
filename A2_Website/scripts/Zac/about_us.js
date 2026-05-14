@@ -1,6 +1,6 @@
 // Zac, path0171
 // About Us JS
-// Version 1.0.0
+// Version 1.0.2
 
 var sections = document.querySelectorAll(".fade-in");
 
