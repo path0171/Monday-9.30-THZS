@@ -3,6 +3,11 @@ if (storedName) {
     document.getElementById('profile-name').textContent = storedName;
 }
 
+const storedEmail = localStorage.getItem('userEmail');
+if (storedEmail) {
+    document.getElementById('profile-email').textContent = storedEmail;
+}
+
 function signOut() {
     localStorage.removeItem('userName');
     window.location.href = 'homepage.html';

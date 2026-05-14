@@ -25,5 +25,6 @@ function signup() {
       }
    
     localStorage.setItem('userName', name);
+    localStorage.setItem('userEmail', email);
     window.location.href = 'profile_page.html';
   }
