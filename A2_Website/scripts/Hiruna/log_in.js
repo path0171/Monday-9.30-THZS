@@ -20,5 +20,6 @@ function signup() {
         return;
       }
    
-    window.location.href = 'homepage.html';
+    localStorage.setItem('userName', name);
+    window.location.href = 'profile_page.html';
   }
