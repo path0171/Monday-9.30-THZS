@@ -1,155 +1,160 @@
+/* Saaim, saai0013 */
+/* Adoption Form CSS */
+/* Version 1.0.0 */
+
 body {
-    background-color: #ffe8cc;
+  background-color: #ffe8cc;
 }
 .adoption-page {
-    max-width: 1100px;
-    margin: 40px auto;
-    padding: 20px;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
 }
 
 .adoption-hero {
-    text-align: center;
-    background-color: #f4fff8;
-    padding: 35px;
-    border-radius: 14px;
-    margin-bottom: 30px;
-    border: 1px solid #d7eadf;
+  text-align: center;
+  background-color: #f4fff8;
+  padding: 35px;
+  border-radius: 14px;
+  margin-bottom: 30px;
+  border: 1px solid #d7eadf;
 }
 
 .adoption-hero h2 {
-    font-size: 34px;
-    color: #2f6f4e;
-    margin-bottom: 10px;
+  font-size: 34px;
+  color: #2f6f4e;
+  margin-bottom: 10px;
 }
 
 .adoption-hero p {
-    max-width: 700px;
-    margin: 0 auto;
-    line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 
 .adoption-layout {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 25px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 25px;
 }
 
 .pet-summary-card,
 .application-form-section {
-    background-color: #ffffff;
-    padding: 30px;
-    border: 1px solid #dddddd;
-    border-radius: 14px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  padding: 30px;
+  border: 1px solid #dddddd;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .pet-summary-card {
-    text-align: center;
+  text-align: center;
 }
 
 .pet-image-placeholder {
-    width: 130px;
-    height: 130px;
-    margin: 0 auto 20px;
-    border-radius: 50%;
-    background-color: #e8f6ee;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 55px;
+  width: 130px;
+  height: 130px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background-color: #e8f6ee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 55px;
 }
 
 .pet-summary-card h3,
 .application-form-section h3 {
-    color: #ee8728;
-    margin-bottom: 15px;
+  color: #ee8728;
+  margin-bottom: 15px;
 }
 
 .small-note {
-    margin-top: 20px;
-    font-size: 14px;
-    color: #555555;
-    background-color: #f7f7f7;
-    padding: 12px;
-    border-radius: 8px;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555555;
+  background-color: #f7f7f7;
+  padding: 12px;
+  border-radius: 8px;
 }
 
 .adoption-form {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .adoption-form label {
-    font-weight: bold;
-    color: #333333;
+  font-weight: bold;
+  color: #333333;
 }
 
 .adoption-form input,
 .adoption-form select,
 .adoption-form textarea {
-    padding: 12px;
-    border: 1px solid #999999;
-    border-radius: 8px;
-    font-size: 16px;
+  padding: 12px;
+  border: 1px solid #999999;
+  border-radius: 8px;
+  font-size: 16px;
 }
 
 .adoption-form input:focus,
 .adoption-form select:focus,
 .adoption-form textarea:focus {
-    outline: none;
-    border-color: #f48c0e;
-    box-shadow: 0 0 5px rgba(47, 111, 78, 0.4);
+  outline: none;
+  border-color: #fe8920;
+  box-shadow: 0 0 5px rgba(47, 111, 78, 0.4);
 }
 
 .adoption-form button {
-    margin-top: 18px;
-    padding: 14px;
-    background-color: #e4841d;
-    color: rgb(233, 224, 219);
-    border: none;
-    border-radius: 8px;
-    font-size: 17px;
-    cursor: pointer;
+  margin-top: 18px;
+  padding: 14px;
+  background-color: #fe8920;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  cursor: pointer;
 }
 
 .adoption-form button:hover {
-    background-color: #f18024;
+  background-color: #f18024;
 }
 
 /* Responsive layout */
 @media screen and (max-width: 800px) {
-    .adoption-layout {
-        grid-template-columns: 1fr;
-    }
+  .adoption-layout {
+    grid-template-columns: 1fr;
+  }
 
-    .adoption-hero h2 {
-        font-size: 28px;
-    }
+  .adoption-hero h2 {
+    font-size: 28px;
+  }
 }
 
 .pet-image-container {
-    width: 100%;
-    margin-bottom: 20px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .pet-image-container img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 12px;
-    border: 3px solid #e1dfdc;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 3px solid #e1dfdc;
 }
 
 .mini-pets {
-    display: flex;
-    gap: 10px;
-    margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
 }
 
 .mini-pets img {
-    width: 48%;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 8px;
+  width: 48%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
 }

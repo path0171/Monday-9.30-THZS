@@ -1,3 +1,7 @@
+<!-- Saaim, saai0013 -->
+<!-- Profile Page -->
+<!-- Version 1.0.0 -->
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -48,8 +52,8 @@
       <section class="profile-grid">
         <section class="profile-card">
           <h3>Personal Information</h3>
-          <p><strong>Name:</strong> Emi Cate</p>
-          <p><strong>Email:</strong> emi.cate@example.com</p>
+          <p><strong>Name:</strong> <span id="profile-name">Guest</span></p>
+          <p><strong>Email:</strong> <span id="profile-email">—</span></p>
           <p><strong>Phone:</strong> 0412 333 678</p>
         </section>
 
@@ -58,8 +62,8 @@
           <p><strong>Preferred Pet:</strong> Golden Retriever</p>
           <p><strong>Living Type:</strong> House with Backyard</p>
           <p>
-            <strong>Experience:</strong> Previously owned three dogs and
-            worked at local shelters.
+            <strong>Experience:</strong> Previously owned three dogs and worked
+            at local shelters.
           </p>
         </section>
 
@@ -83,6 +87,9 @@
           <a href="browser_page.html" class="profile-button secondary"
             >Browse Pets</a
           >
+          <button onclick="signOut()" class="profile-button secondary">
+            Sign Out
+          </button>
         </div>
       </section>
     </main>
@@ -127,8 +134,7 @@
           <h4>Share & Connect</h4>
           <p>
             <a href="https://www.facebook.com" target="_blank"
-              ><i class="fa-brands fa-facebook-square"></i>
-              Facebook</a
+              ><i class="fa-brands fa-facebook-square"></i> Facebook</a
             >
           </p>
           <p>
@@ -142,5 +148,6 @@
     </footer>
 
     <script src="scripts/Saaim/profile_page.js"></script>
+    <script src="scripts/Zac/header.js"></script>
   </body>
 </html>

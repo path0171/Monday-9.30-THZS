@@ -1,3 +1,7 @@
+/* Zac, path0171 + Hiruna, rana0302 + Saaim, saai0013 */
+/* Global CSS */
+/* Version 4.0.2 */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,52 +10,56 @@
 }
 
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "inter", sans-serif;
   line-height: 1.6;
-  background-color: #ffffff;
-  color: #000000;
+  background-color: white;
+  color: black;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 header {
-  background-color: rgb(255, 255, 255);
-  color: white;
-  padding: 5px 20px;
+  background-color: white;
+  padding: 5px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 6px 4px -6px rgba(0, 0, 0, 0.1);
 }
 
 .header-logo {
-  height: 60px;
+  height: 55px;
   display: block;
   width: auto;
   cursor: pointer;
 }
 
 .header-right a {
-  color: black;
-  font-family: "Times New Roman", Times, serif;
+  color: #ffffff;
+  background-color: rgb(233, 162, 61);
+  font-family: "inter", sans-serif;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1rem;
-  box-shadow: 0 10px 8px -5px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
   border-radius: 20px;
   padding: 6px 14px;
+  transition: background-color 0.2s ease;
 }
 
 .header-right a:hover {
-  background-color: #fe8920;
-  color: white;
+  background-color: #e07515;
+  color: #ffffff;
 }
 
 nav {
   text-align: center;
-  padding: 10px 10px;
-  background-color: rgb(242, 242, 242);
-  box-shadow: 0 10px 8px -5px rgba(0, 0, 0, 0.3);
+  padding: 0 10px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 nav ul {
@@ -67,12 +75,16 @@ nav a {
   text-decoration: none;
   color: #2c3e50;
   font-weight: bold;
-  font-size: 16px;
-  padding: 5px 10px;
+  font-size: 15px;
+  padding: 10px 12px;
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+  transition: background-color 0.2s ease;
 }
 
 nav a:hover {
   color: #fe8920;
+  border-bottom: 3px solid #fe8920;
 }
 
 footer {
@@ -116,7 +128,6 @@ footer {
   font-size: 16px;
   margin-bottom: 6px;
   font-weight: bold;
-
 }
 
 .footer-right {
