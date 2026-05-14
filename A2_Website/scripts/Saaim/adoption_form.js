@@ -1,7 +1,3 @@
-// Saaim, saai0013
-// Adoption Form JS
-// Version 1.0.0
-
 const form = document.querySelector(".adoption-form");
 
 form.addEventListener("submit", function(e) {
