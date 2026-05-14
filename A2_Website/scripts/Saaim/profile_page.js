@@ -1,5 +1,3 @@
-
-
 const applyButton = document.querySelector(".profile-button");
 
 applyButton.addEventListener("click", function(event) {
