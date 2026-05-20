@@ -194,7 +194,13 @@ _Each team member: ~300 words on the design-to-prototype process, complexity of 
 
 > **Word count target:** ~300 words
 
-WRITE REFLECTION HERE
+During the development of our Adopt It pet adoption website, I earned productive experience in making functional and interactive web pages. While doing our assignment 1, our main goal was on making user-focused designs through personas, wireframes, storyboards and user flows. In our assignment 2, I converted all of these concepts into fully functional and working web pages with the help of HTML, CSS, and JavaScript. This procedure helped me in understanding the significance of designing with both practicability and viability in mind.
+
+My main part in this website project was to develop Pet Adoption Application Form and the User Profile page. A challenge I faced during the development was to implement front-end and back-end communication without the use of external libraries. I had to cautiously structure the inputs, create both CSS and JavaScript files for data handling. Issues such as debugging, invalid file paths, inactive links, and multiple HTML elements improved my problem-solving abilities to a great extent. 
+Another key aspect of our website was to make sure the website is user friendly and easily accessible for all users. I did my best to apply adaptive and intuitive designs, clear navigation and semantic HTML and visual structure to improve ease of reading across multiple screen sizes. Validation checks using JavaScript were also added to avoid input errors and improve overall user experience.
+
+To achieve successful development, our project was made using systematic folder structures which were named as per each individual team members to avoid confusions. Our team members also collaborated through GitHub to experience the importance of working in a team environment, communication and maintain professional coding practices. Overall, my concepts of web development were strengthened while working for this assessment.
+
 
 ---
 
