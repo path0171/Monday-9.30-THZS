@@ -147,6 +147,14 @@ _Describe how the front end communicates with the server (or planned integration
 |                |        |                    |           |                    |
 
 ### Security and validation (saai0013)
+Client-side validation checks were added in our web pages using JavaScript which improved the ease of use and reduce incorrect user input. These checks also ensured that user correctly enters all important fields such as contact number, name, and email address. This will avoid incomplete forms and enhance overall user experience by responding immediately to the user.
+
+To improve the responsiveness and user interactivity of user, CSS was added and linked to the webpages. A friendly user-interface was added  by implementing color contrast, button styling, and form layouts. Our layouts were responsive being considering that they can be used on multiple screen sizes. 
+
+While developing our web pages we considered basic security by using semantic HTML structure and organized file management was practiced to avoid errors and improve code readability. Backend implementation was not completely implemented, while that project structure was to be done for upcoming JSON and PHP integration. Backend data-cleaning and privileged access could have been significant in producing a final version of our website.
+
+Overall, we focused on improving validation and a simple interface design to reduce number of user errors and a long-term trustworthy experience for our users.
+
 
 ### Diagram (saai0013)
 
