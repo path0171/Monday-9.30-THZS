@@ -142,13 +142,15 @@ _Describe how the front end communicates with the server (or planned integration
 
 The front end communicates with the back end using HTTP requests and responses. When a user performs an action such as signing in, viewing pets, or submitting forms, the front end sends requests to the server. The server processes the request, interacts with the database when necessary, and returns a response to the front end. The front end then updates the user interface based on the received data. Error handling is also implemented to display appropriate messages if a request fails or invalid information is entered this is mainly done through javascript.
 
-### Endpoints and data flow (rana0302)
+### Implementation Details for back-end communication (rana0302)
 
-| Feature / page | Method | Endpoint or action | Data sent | Response / outcome |
-| -------------- | ------ | ------------------ | --------- | ------------------ |
-|                |        |                    |           |                    |
+The back-end communication for the Adopt It website was mainly implemented using JavaScript and JSON to create dynamic interactions between pages and user inputs. One of the key implementations was on the pet selected page, where a JSON file was used to store pet information such as names, breeds, descriptions, medical notes, and images seperately for all pets. When a user selected a pet from the browser page, JavaScript retrieved the corresponding data from the JSON file structure and dynamically updated the page content and images. This allowed multiple pet informationa and images to be displayed using a single html page design rather than creating separate HTML pages for every pet.
+
+JavaScript was also used extensively for form validation and error handling throughout the website. For example , on the sign up page, validation ensured that the password and confirm password fields matched before allowing account creation, while error messages were displayed if invalid data was entered. Similarly, the adoption form and contact form validated user inputs such as email addresses, phone numbers, and required text fields before submission. Although the project currently focuses mainly on front-end implementation, the structure was designed with few back-end integrations as well.
+
 
 ### Security and validation (saai0013)
+
 Client-side validation checks were added in our web pages using JavaScript which improved the ease of use and reduce incorrect user input. These checks also ensured that user correctly enters all important fields such as contact number, name, and email address. This will avoid incomplete forms and enhance overall user experience by responding immediately to the user.
 
 To improve the responsiveness and user interactivity of user, CSS was added and linked to the webpages. A friendly user-interface was added  by implementing color contrast, button styling, and form layouts. Our layouts were responsive being considering that they can be used on multiple screen sizes. 
