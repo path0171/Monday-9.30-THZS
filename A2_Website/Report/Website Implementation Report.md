@@ -140,6 +140,8 @@ _Describe how the front end communicates with the server (or planned integration
 
 ### Overview (rana0302)
 
+The front end communicates with the back end using HTTP requests and responses. When a user performs an action such as signing in, viewing pets, or submitting forms, the front end sends requests to the server. The server processes the request, interacts with the database when necessary, and returns a response to the front end. The front end then updates the user interface based on the received data. Error handling is also implemented to display appropriate messages if a request fails or invalid information is entered this is mainly done through javascript.
+
 ### Endpoints and data flow (rana0302)
 
 | Feature / page | Method | Endpoint or action | Data sent | Response / outcome |
@@ -224,4 +226,9 @@ WRITE REFLECTION HERE
 
 > **Word count target:** ~300 words
 
-WRITE REFLECTION HERE
+In relation to this assignment, there have been several lessons I learned in regards to web page creation. During this entire process, it would be important to note that my position in this was to design the homepage, sign-in page, and pet selected pages. This is in the sense that the objective of the design was to ensure that the user's attention was attracted as well as ensuring that the designs were understandable by the viewer.
+
+Apart from designing the pages, I managed to develop CSS styles for the whole web application and create header, footer, and navigation bar for the website. At the same time, thanks to the changes made by my teammates to the pages, the issue of redundancy could be avoided while creating the web application. Nevertheless, there were still some challenges I had to deal with like the website contained lots of similarities in terms of color, fonts, and spaces used. Therefore, it was important to stick to the existing design and making that the common parts were all the same.
+
+To achieve a successful webpage, I think that communication within the team and planning accurately before starting is crucial and I think that assignment 1 – UX design report helped us a lot where we planned out on how are web page is going to look with the help of the wireframes and storyboards that we designed. Also, we found it difficult at that start on how to think of working together on the same set of pages at once and then we figured it out through GitHub where it helped us to work on our individual pages separately but at the same time. Overall, during this project I gained a lot of knowledge regarding web development and improved my coding practices as well.
+
