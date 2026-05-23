@@ -179,6 +179,8 @@
       "colour": "Grey",
       "image": "Images/Pet Images/Cats/devon_rex_luna.jpg",
       "extraImages": [],
+        
+      
       "aboutIntro": "Luna is a playful Devon Rex with a unique curly coat and a big personality in a small package.",
       "aboutSubtext": "Here's what you'll love about her:",
       "aboutPoints": [
@@ -248,6 +250,7 @@
       "colour": "Seal Point",
       "image": "Images/Pet Images/Cats/siamese_willow.jpg",
       "extraImages": [],
+        
       "aboutIntro": "Willow is a talkative Siamese who follows you around the house and loves being part of the family.",
       "aboutSubtext": "Here's what you'll love about her:",
       "aboutPoints": [
