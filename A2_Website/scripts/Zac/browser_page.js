@@ -12,6 +12,14 @@ var noResults = document.getElementById("no-results");
 var activeType = "all";
 var activeGender = "all";
 
+var petCards = document.querySelectorAll(".pet-card");
+petCards.forEach(function (card) {
+  var petId = card.getAttribute("data-name");
+  if (petId) {
+    card.href = "pet_selected.html?pet=" + petId;
+  }
+});
+
 function applyFilters() {
   var searchVal = searchInput.value.toLowerCase();
 

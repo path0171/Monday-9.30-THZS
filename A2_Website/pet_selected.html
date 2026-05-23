@@ -10,7 +10,7 @@
     <meta description="Adopt It Pet Adoption INSERT_PAGE" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="item" content="item" />
-    <title>Adopt It - Homepage</title>
+    <title>Adopt It - Pet Details</title>
     <link rel="stylesheet" href="styles/global.css" />
     <link
       rel="stylesheet"
@@ -38,53 +38,42 @@
         <li><a href="contact_us.html">Contact Us</a></li>
       </ul>
     </nav>
+    <p id="pet-not-found" style="display: none">
+      Pet not found.
+      <a href="browser_page.html">Back to browse pets</a>
+    </p>
+
     <div class="pet-selected">
       <div class="pet-details">
-        <h1>Max</h1>
-        <p class="pet-breed">Dachshund</p>
+        <h1 id="pet-name"></h1>
+        <p class="pet-breed" id="pet-breed"></p>
 
         <div class="pet-info">
-          <p><strong>Age:</strong> 2 years</p>
-          <p><strong>Gender:</strong> Male</p>
-          <p><strong>Location:</strong> Tonsley</p>
-          <p><strong>Colour:</strong> Black & Brown</p>
+          <p><strong>Age:</strong> <span id="pet-age"></span></p>
+          <p><strong>Gender:</strong> <span id="pet-gender"></span></p>
+          <p><strong>Location:</strong> <span id="pet-location"></span></p>
+          <p><strong>Colour:</strong> <span id="pet-colour"></span></p>
         </div>
 
         <div class="pet-about">
-          <h2>About Max</h2>
-          <p>If you're looking for a fun and loyal companion, meet Max! ...</p>
-          <p>Here's what you'll love about him:</p>
-          <ul>
-            <li>Dog friendly – loves having mates to play with</li>
-            <li>Confident and social – nothing fazes this happy guy</li>
-            <li>Affectionate – loves cuddles on the couch</li>
-            <li>Great with kids – gentle and playful</li>
-            <li>Full of love – gives it freely and often</li>
-          </ul>
+          <h2 id="about-title"></h2>
+          <p id="about-intro"></p>
+          <p id="about-subtext"></p>
+          <ul id="about-points"></ul>
 
           <h2>Medical Notes</h2>
-          <p>
-            No known pre-existing conditions. Vaccinated and ready for his
-            forever home.
-          </p>
+          <p id="medical-notes"></p>
 
           <h2>Pre-adoption Checks</h2>
-          <ul class="checks-list">
-            <li>Desexed</li>
-            <li>Vaccinated</li>
-            <li>Wormed</li>
-          </ul>
+          <ul class="checks-list" id="checks-list"></ul>
         </div>
       </div>
       <div class="pet-image">
-        <img src="Images/Pet Images/Dogs/dachshund_max.jpg" alt="Max" />
-        <div class="pet-extra-images">
-          <img src="Images/pet selected images/playing dog.png" alt="Max 2" />
-          <img src="Images/pet selected images/shower dog.png" alt="Max 3" />
-          <img src="Images/pet selected images/sleeping dog.png" alt="Max 4" />
-        </div>
-        <a href="adoption_form.html" class="adopt-btn">Enquire Max</a>
-      </div>
+        <img id="pet-main-image" src="" alt="" />
+        <div class="pet-extra-images" id="pet-extra-images"></div>
+        <a href="adoption_form.html" class="adopt-btn" id="adopt-btn"
+          >Enquire</a
+        >
       </div>
     </div>
     <footer>
@@ -139,6 +128,7 @@
       </div>
       <p class="footer-copyright">© 2026 Adopt It Adoptions</p>
     </footer>
+    <script src="scripts/Hiruna/pet_selected.js"></script>
     <script src="scripts/Zac/header.js"></script>
   </body>
 </html>
