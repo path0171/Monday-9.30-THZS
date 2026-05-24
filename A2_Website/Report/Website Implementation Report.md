@@ -220,14 +220,17 @@ Another key aspect of our website was to make sure the website is user friendly 
 
 To achieve successful development, our project was made using systematic folder structures which were named as per each individual team members to avoid confusions. Our team members also collaborated through GitHub to experience the importance of working in a team environment, communication and maintain professional coding practices. Overall, my concepts of web development were strengthened while working for this assessment.
 
-
 ---
 
 ### Zachary Pathuis — path0171
 
 > **Word count target:** ~300 words
 
-WRITE REFLECTION HERE
+During the development of our Adopt It pet adoption website, I gained valuable experience turning UX design concepts from Assignment 1 into working web pages. In the earlier assignment, I contributed personas, wireframes, user flows, and a sitemap for the browser and admin areas. In Assignment 2, I applied that planning to build the About Us, Browser Page, and Contact Us pages using HTML, CSS, and JavaScript. This process strengthened my understanding of how early design decisions affect implementation and usability.
+
+My main responsibility was developing pages where users browse and enquire about pets. On the browser page, I implemented search and filter controls in JavaScript so users could narrow listings by type, gender, location, and name, with each pet card linking to the pet selected page via URL parameters. I also built the contact and about pages, including form validation and layout styling in dedicated CSS files. A significant challenge was keeping the site visually consistent across teammates’ pages. I worked on shared elements such as the header script, which updates the sign-up button to a profile link when a user is logged in, and contributed to global styling and the style guide summary so colours, typography, and navigation stayed aligned.
+
+To support successful deployment, I helped organise our folder structure by team member and used GitHub regularly to merge changes, fix broken paths, and coordinate updates such as the JSON pet database and header behaviour. I also aimed for clear navigation and semantic HTML so pages remained readable and accessible across different screen sizes. Debugging issues like inactive links, margin errors, and pet-not-found handling improved my problem-solving skills. Communication with my teammates before starting each page was important, and our Assignment 1 wireframes and user flows made implementation much smoother. Overall, this project deepened my knowledge of front-end development, teamwork, and translating user-centred design into a cohesive, functional website.
 
 ---
 
