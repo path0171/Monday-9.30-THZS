@@ -47,9 +47,7 @@ The second annotated screenshot covers the “Meet Our Team” section on the sa
 
 **Key elements annotated:**
 
-- Form fields and validation
-- Submit / confirmation behaviour
-- User flow from pet selection to application
+Adoption Form page allows the users to easily apply for a pet with the help of a clean and user-friendly interface. This page provides users with both pet images and information along with the application form where they can enter their personal details such as name, email, contact number, and etc. To avoid incomplete submission of forms JavaScript validation is used, and styling of the page has been improved through CSS to improve overall user experience.
 
 ---
 
@@ -127,10 +125,7 @@ The page also includes an “Enquire Max” button that redirects users to the a
 
 **Key elements annotated:**
 
-- User account information display
-- Saved pets / application status
-- Edit profile or settings controls
-
+This profile page allows the users to manage their personal details including pet related information and their preferences. The page also highlights user's name, living conditions and previous pet experiences. Moreover, the application status bar allows the users to trace their adoption progress. To make it easy for the users, quick action buttons are added which allows them to apply for adoption, log out or browse pets. Responsive CSS styling is also added to make it user friendly and easily accessible for all users.
 ---
 
 ## Back-End Communication (rana0302, saai0013)
