@@ -160,7 +160,7 @@ While developing our web pages we considered basic security by using semantic HT
 Overall, we focused on improving validation and a simple interface design to reduce number of user errors and a long-term trustworthy experience for our users.
 
 
-### Diagram (saai0013)
+
 
 ---
 
