@@ -90,7 +90,7 @@ The “Send Your Request” form includes labelled fields for name, email, phone
 
 This annotated screenshot presents the homepage of the Adopt It pet adoption website. The homepage was designed with a clean and welcoming layout to create a positive first impression for users. It includes a navigation bar for easy access to pages such as the Browser Page, Adoption Form, and Contact Us, along with a prominent “Sign Up” button that redirects users to the profile page after registration.
 
-## The homepage also highlights the organisation’s mission through engaging visuals, adoption statistics, and inspirational slogans such as “Rescue. Love. Repeat.” Images of pets and families were included to create an emotional connection with users, while the partner section was added to showcase trusted organisations supporting the adoption platform. Additionally, the “More Info” button directly navigates users to the About Us page for further details about the organisation and its mission.
+The homepage also highlights the organisation’s mission through engaging visuals, adoption statistics, and inspirational slogans such as “Rescue. Love. Repeat.” Images of pets and families were included to create an emotional connection with users, while the partner section was added to showcase trusted organisations supporting the adoption platform. Additionally, the “More Info” button directly navigates users to the About Us page for further details about the organisation and its mission.
 
 ### Log In — Hiruna Ranawaka (rana0302)
 
@@ -126,6 +126,7 @@ The page also includes an “Enquire Max” button that redirects users to the a
 **Key elements annotated:**
 
 This profile page allows the users to manage their personal details including pet related information and their preferences. The page also highlights user's name, living conditions and previous pet experiences. Moreover, the application status bar allows the users to trace their adoption progress. To make it easy for the users, quick action buttons are added which allows them to apply for adoption, log out or browse pets. Responsive CSS styling is also added to make it user friendly and easily accessible for all users.
+
 ---
 
 ## Back-End Communication (rana0302, saai0013)
