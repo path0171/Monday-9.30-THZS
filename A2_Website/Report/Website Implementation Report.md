@@ -199,13 +199,7 @@ Font "Awesome 6.5" is also loaded on all pages for icons such as dog, cat and bi
 
 ## Individual Reflections
 
-_Each team member: ~300 words on the design-to-prototype process, complexity of development, and accommodations needed for successful deployment._
-
----
-
 ### Muhammad Saaim — saai0013
-
-> **Word count target:** ~300 words
 
 During the development of our Adopt It pet adoption website, I earned productive experience in making functional and interactive web pages. While doing our assignment 1, our main goal was on making user-focused designs through personas, wireframes, storyboards and user flows. In our assignment 2, I converted all of these concepts into fully functional and working web pages with the help of HTML, CSS, and JavaScript. This procedure helped me in understanding the significance of designing with both practicability and viability in mind.
 
@@ -218,8 +212,6 @@ To achieve successful development, our project was made using systematic folder 
 
 ### Zachary Pathuis — path0171
 
-> **Word count target:** ~300 words
-
 During the development of our Adopt It pet adoption website, I gained valuable experience turning UX design concepts from Assignment 1 into working web pages. In the earlier assignment, I contributed personas, wireframes, user flows, and a sitemap for the browser and admin areas. In Assignment 2, I applied that planning to build the About Us, Browser Page, and Contact Us pages using HTML, CSS, and JavaScript. This process strengthened my understanding of how early design decisions affect implementation and usability.
 
 My main responsibility was developing pages where users browse and enquire about pets. On the browser page, I implemented search and filter controls in JavaScript so users could narrow listings by type, gender, location, and name, with each pet card linking to the pet selected page via URL parameters. I also built the contact and about pages, including form validation and layout styling in dedicated CSS files. A significant challenge was keeping the site visually consistent across teammates’ pages. I worked on shared elements such as the header script, which updates the sign-up button to a profile link when a user is logged in, and contributed to global styling and the style guide summary so colours, typography, and navigation stayed aligned.
@@ -229,8 +221,6 @@ To support successful deployment, I helped organise our folder structure by team
 ---
 
 ### Hiruna Ranawaka — rana0302
-
-> **Word count target:** ~300 words
 
 In relation to this assignment, there have been several lessons I learned in regards to web page creation. During this entire process, it would be important to note that my position in this was to design the homepage, sign-in page, and pet selected pages. This is in the sense that the objective of the design was to ensure that the user's attention was attracted as well as ensuring that the designs were understandable by the viewer.
 
