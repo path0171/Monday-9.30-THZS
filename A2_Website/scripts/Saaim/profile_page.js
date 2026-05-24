@@ -1,3 +1,7 @@
+// Saaim, saai0013
+// Profile Page JS
+// Version 1.0.0
+
 const storedName = localStorage.getItem('userName');
 if (storedName) {
     document.getElementById('profile-name').textContent = storedName;
