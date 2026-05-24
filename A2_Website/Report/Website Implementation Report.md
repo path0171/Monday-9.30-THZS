@@ -26,13 +26,16 @@ Annotated screenshots of each page indicating function and specific page element
 
 **Source file:** `about_us.html`
 
-![About Us — annotated screenshot](Screenshots/about_us_path0171.png)
+![About Us — annotated screenshot 1](../Screenshots/Zac/about_us_1_path0171.png)
+![About Us — annotated screenshot 2](../Screenshots/Zac/about_us_2_path0171.png)
 
-**Key elements to annotate:**
+**Key elements annotated:**
 
-- Navigation and page layout
-- Content sections and calls to action
-- Links to other pages or external resources
+This annotated screenshot presents the upper section of the About Us page for the Adopt It pet adoption website. The page uses the same faded light orange (`#ffe8cc`) background as the rest of the site so users experience a consistent look across pages. A full-width hero banner displays a dog image with a parallax-style effect using `background-attachment: fixed`, keeping the image visually anchored while content scrolls. The main “About Us” title is a bold white H1 (80px) with a text shadow so it remains readable against the photograph.
+
+Below the banner, the “Who We Are” section sits inside a white rounded container (10px border-radius and light box shadow) suitable for black body text. The section heading uses an H1 with an orange underline in the site’s signature primary colour, supporting a familiar layout consistent with Jakob’s Law. A German Shepherd image (Rusty) is shown with 20px border-radius and `object-fit: cover` in a flex layout so the image and text adapt on different screen sizes. The mission text (20px, regular weight) introduces the non-profit organisation and tells Rusty’s adoption story to build an emotional connection with visitors.
+
+The second annotated screenshot covers the “Meet Our Team” section on the same page. It repeats the orange underline heading style and cream background for visual consistency. Three team profiles (Muhammad Saaim, Zac Pathuis, and Hiruna Ranawaka) are displayed in circular images with a hover magnify effect. Each member’s name appears as an H3 (600 font-weight) with a 16px role label beneath (“UI/UX Designer”). JavaScript fade-in animations trigger when sections scroll into view, adding subtle interactivity without distracting from the content. The shared header, navigation bar, and footer link users to the Browser Page, Adoption Form, Contact Us, and external social pages.
 
 ---
 
@@ -40,9 +43,9 @@ Annotated screenshots of each page indicating function and specific page element
 
 **Source file:** `adoption_form.html`
 
-![Adoption Form — annotated screenshot](Screenshots/adoption_form_saai0013.png)
+![Adoption Form — annotated screenshot](../Screenshots/Saaim/adoption_form_saai0013.png)
 
-**Key elements to annotate:**
+**Key elements annotated:**
 
 - Form fields and validation
 - Submit / confirmation behaviour
@@ -54,13 +57,13 @@ Annotated screenshots of each page indicating function and specific page element
 
 **Source file:** `browser_page.html`
 
-![Browser Page — annotated screenshot](Screenshots/browser_page_path0171.png)
+![Browser Page — annotated screenshot](../Screenshots/Zac/browser_page_path0171.png)
 
-**Key elements to annotate:**
+**Key elements annotated:**
 
-- Search and filter controls
-- Pet listing cards or grid
-- Navigation to pet detail / selection
+This annotated screenshot presents the Browser Page of the Adopt It pet adoption website, where users search and browse adoptable pets. The page opens with a centred black H1 heading “Adoptable Pets” (54px, bold) on the same cream background used site-wide. The layout splits into a left filter panel and a right content area grouped by pet type (Dogs, Cats, and Birds).
+
+The filter sidebar includes a search bar (name or breed), type buttons (All, Dog, Cat, Bird) with orange icons, location checkboxes (Adelaide City, Noarlunga, Glenelg, Mawson Lakes), gender filters, and a “Reset All” control. JavaScript applies these filters in real time and hides empty sections, showing a “no results” message when nothing matches. Each pet card sits in a white section box (10px border-radius, light shadow) and displays a photo, name, and breed. Cards use `data-*` attributes and unique IDs so clicking a pet opens `pet_selected.html` with the correct pet passed in the URL, linking to the JSON database used on the detail page. Pet images are sourced from Unsplash for consistent, copyright-free visuals across the browser and pet selected pages.
 
 ---
 
@@ -68,13 +71,13 @@ Annotated screenshots of each page indicating function and specific page element
 
 **Source file:** `contact_us.html`
 
-![Contact Us — annotated screenshot](Screenshots/contact_us_path0171.png)
+![Contact Us — annotated screenshot](../Screenshots/Zac/contact_page_path0171.png)
 
-**Key elements to annotate:**
+**Key elements annotated:**
 
-- Contact form or messaging interface
-- Location / centre information
-- Appointment or enquiry actions
+This annotated screenshot presents the Contact Us page of the Adopt It pet adoption website. The page uses the standard cream background and a centred black H1 “Contact Us” (45px) with a 30px H3 subtitle explaining that users can send questions or feedback via the form below. The main content is a two-column contact box: a white left panel for the enquiry form and an orange right panel for centre details.
+
+The “Send Your Request” form includes labelled fields for name, email, phone, subject, and message, with HTML5 validation (`required`, `type="email"`, `type="tel"`) and placeholder example text. The orange “Submit” button sends data to `php/data.php` via JavaScript `fetch`; on success the form is hidden and a confirmation message is shown, with a “Send Another Message” button to reset. The “Reach Us” panel lists email, phone, and address in white text on the brand orange background, and an embedded Google Maps iframe shows the Bedford Park campus location to help users find the adoption centre. The signature orange colour and split layout follow the same visual theme as other pages (Jakob’s Law), while the shared header and navigation bar keep movement between Browser, Adoption Form, and About Us straightforward.
 
 ---
 
@@ -82,9 +85,10 @@ Annotated screenshots of each page indicating function and specific page element
 
 **Source file:** `homepage.html`
 
-![Homepage — annotated screenshot](Screenshots/homepage_rana0302.png)
+![Homepage — annotated screenshot 1](../Screenshots/Hiruna/homepage_1_rana0302.png)
+![Homepage — annotated screenshot 2](../Screenshots/Hiruna/homepage_2_rana0302.png)
 
-**Key elements to annotate:**
+**Key elements annotated:**
 
 This annotated screenshot presents the homepage of the Adopt It pet adoption website. The homepage was designed with a clean and welcoming layout to create a positive first impression for users. It includes a navigation bar for easy access to pages such as the Browser Page, Adoption Form, and Contact Us, along with a prominent “Sign Up” button that redirects users to the profile page after registration.
 
@@ -94,9 +98,9 @@ This annotated screenshot presents the homepage of the Adopt It pet adoption web
 
 **Source file:** `log_in.html`
 
-![Log In — annotated screenshot](Screenshots/log_in_rana0302.png)
+![Log In — annotated screenshot](../Screenshots/Hiruna/signup_rana0302.png)
 
-**Key elements to annotate:**
+**Key elements annotated:**
 
 This annotated screenshot presents the Sign Up page of the Adopt It pet adoption website. The page was designed with a clean and user-friendly layout, combining a welcoming family-and-pet image with a simple registration form. Users are required to enter their name, email, password, and confirm their password before clicking the “Sign me up!” button. JavaScript validation was implemented to check password confirmation, and after a successful sign up, the user is redirected to the homepage.
 
@@ -106,9 +110,10 @@ This annotated screenshot presents the Sign Up page of the Adopt It pet adoption
 
 **Source file:** `pet_selected.html`
 
-![Pet Selected — annotated screenshot](Screenshots/pet_selected_rana0302.png)
+![Pet Selected — annotated screenshot 1](../Screenshots/Hiruna/pet_selected_1_rana0302.png)
+![Pet Selected — annotated screenshot 2](../Screenshots/Hiruna/pet_selected_2_rana0302.png)
 
-**Key elements to annotate:**
+**Key elements annotated:**
 
 This annotated screenshot presents the Pet Selected page of the Adopt It pet adoption website. The page was designed to provide detailed information about a selected pet, including its age, gender, location, colour, medical notes, and pre-adoption checks. Images of the pet were displayed in different activities to help users better connect with the animal before adoption.
 
@@ -118,9 +123,9 @@ The page also includes an “Enquire Max” button that redirects users to the a
 
 **Source file:** `profile_page.html`
 
-![Profile Page — annotated screenshot](Screenshots/profile_page_saai0013.png)
+![Profile Page — annotated screenshot](../Screenshots/Saaim/profile_page_saai0013.png)
 
-**Key elements to annotate:**
+**Key elements annotated:**
 
 - User account information display
 - Saved pets / application status
