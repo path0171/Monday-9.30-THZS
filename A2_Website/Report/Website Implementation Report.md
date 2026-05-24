@@ -168,31 +168,43 @@ Overall, we focused on improving validation and a simple interface design to red
 
 _Summarise the visual and interaction standards used across the site._
 
+Our site uses a warm, friendly pet-adoption look built around orange and cream tones. Most styling lives in [`styles/global.css`](../styles/global.css) (header, nav, footer), with each page adding its own CSS file on top.
+
 ### Colour palette
 
 | Role       | Colour | Usage |
 | ---------- | ------ | ----- |
-| Primary    |        |       |
-| Secondary  |        |       |
-| Background |        |       |
-| Text       |        |       |
+| Primary    | `#fe8920` / `rgb(233, 162, 61)` | Main brand orange — nav hover, filter buttons, form accents, section headings, submit buttons |
+| Secondary  | `#e07515` / `#ffa75a` | Darker orange on button hover; contact panel right side; footer background `#ffbb80` |
+| Background | `#ffe8cc` | Warm cream page background on homepage, browser, contact, about, pet selected, adoption, and profile |
+| Text       | `#000000`, `#2c3e50`, `#888888` | Body text (black); navigation links (`#2c3e50`); secondary text such as breed labels (grey) |
+
+White (`#ffffff`) is used for cards, filter panels, and form containers. Homepage impact headings also use **red** for emphasis on the “15 years of Impact” line.
 
 ### Typography
 
 | Element      | Font family | Size / weight | Usage |
 | ------------ | ----------- | ------------- | ----- |
-| Headings     |             |               |       |
-| Body         |             |               |       |
-| UI / buttons |             |               |       |
+| Headings     | `"inter", sans-serif` (most pages); `"Times New Roman", serif` (homepage impact section) | Page titles ~45–54px bold; section headings ~18–34px; pet name ~2.5rem | Browser “Adoptable Pets”, contact “Contact Us”, filter labels, profile headings |
+| Body         | `"inter", sans-serif` | 14–16px, line-height 1.6 | Paragraphs, form labels, footer text, pet descriptions |
+| UI / buttons | `"inter", sans-serif` | 15–16px bold | Header “Sign Up” / “User Profile”, nav links, filter buttons, form submit buttons |
+
+Font Awesome 6.5 is loaded on all pages for icons (dog/cat/bird filters, social links, sliders).
 
 ### Layout and components
 
-- **Navigation:**
-- **Buttons and forms:**
-- **Cards / listings:**
-- **Consistency:**
+- **Navigation:** Sticky white header with logo (links to homepage) and orange pill button for sign-up or profile. Grey bar below with centred links (Browser, Adoption Form, Contact Us). Active/hover state uses orange text and a bottom border. Same header and nav appear on every page via shared HTML structure and [`header.js`](../scripts/Zac/header.js).
+- **Buttons and forms:** Primary actions use orange fill, white text, and rounded corners (typically 20–30px `border-radius`). Hover darkens the orange. Form inputs use a simple underline style (`border-bottom: 1px solid #fe8920`) on contact and adoption pages. Client-side validation runs in JavaScript before data is sent to PHP.
+- **Cards / listings:** Pet cards on the browser page are white boxes with rounded corners (`10px`), light shadow, and an orange section title. Clicking a card opens the pet detail page. Profile and adoption sections use white cards on the cream background with padding and subtle borders/shadows.
+- **Consistency:** All pages share the same header, navigation, footer, and orange/cream colour scheme. Page-specific CSS files only change layout and content areas, not the global chrome. Logo assets (`logo_with_text_transparent.png`, `logo_transparent.png`) are reused in the header and footer.
 
 ### Accessibility
+
+- Semantic HTML is used across the site (`header`, `nav`, `main`, `footer`, `section`, `aside`, heading levels).
+- Images include `alt` text (logos, pet photos, team profiles).
+- Form fields use `<label>` elements linked to inputs; required fields are marked in HTML.
+- Colour contrast is kept readable with dark text on light backgrounds; orange is used mainly for accents and buttons with white label text.
+- Layouts use flexible widths (percentages, `max-width`, flex/grid) so content scales on different screen sizes, though the site is not fully optimised for mobile.
 
 ---
 
