@@ -8,11 +8,15 @@ var petId = params.get("pet");
 if (!petId) {
   showNotFound();
 } else {
-  fetch("php/data.php?action=get_pets")
+  fetch("data/pets.json")
     .then(function (response) {
       return response.json();
     })
     .then(function (data) {
+      if (!data.pets) {
+        showNotFound();
+        return;
+      }
       var pet = findPet(data.pets, petId);
       if (pet) {
         showPet(pet);
