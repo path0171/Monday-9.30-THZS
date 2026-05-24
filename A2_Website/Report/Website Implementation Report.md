@@ -86,10 +86,9 @@ Annotated screenshots of each page indicating function and specific page element
 
 **Key elements to annotate:**
 
-- Hero section and primary messaging
-- Main navigation and entry points
-- Featured pets or prominent links
+This annotated screenshot presents the homepage of the Adopt It pet adoption website. The homepage was designed with a clean and welcoming layout to create a positive first impression for users. It includes a navigation bar for easy access to pages such as the Browser Page, Adoption Form, and Contact Us, along with a prominent “Sign Up” button that redirects users to the profile page after registration.
 
+The homepage also highlights the organisation’s mission through engaging visuals, adoption statistics, and inspirational slogans such as “Rescue. Love. Repeat.” Images of pets and families were included to create an emotional connection with users, while the partner section was added to showcase trusted organisations supporting the adoption platform. Additionally, the “More Info” button directly navigates users to the About Us page for further details about the organisation and its mission.
 ---
 
 ### Log In — Hiruna Ranawaka (rana0302)
@@ -100,9 +99,7 @@ Annotated screenshots of each page indicating function and specific page element
 
 **Key elements to annotate:**
 
-- Sign-in fields and authentication flow
-- Links to registration or password recovery
-- Error or success feedback states
+This annotated screenshot presents the Sign Up page of the Adopt It pet adoption website. The page was designed with a clean and user-friendly layout, combining a welcoming family-and-pet image with a simple registration form. Users are required to enter their name, email, password, and confirm their password before clicking the “Sign me up!” button. JavaScript validation was implemented to check password confirmation, and after a successful sign up, the user is redirected to the homepage.
 
 ---
 
@@ -114,11 +111,9 @@ Annotated screenshots of each page indicating function and specific page element
 
 **Key elements to annotate:**
 
-- Selected pet profile and media
-- Adoption-related actions (e.g. apply, save, contact)
-- Navigation back to browse or forward to form
+This annotated screenshot presents the Pet Selected page of the Adopt It pet adoption website. The page was designed to provide detailed information about a selected pet, including its age, gender, location, colour, medical notes, and pre-adoption checks. Images of the pet were displayed in different activities to help users better connect with the animal before adoption.
 
----
+The page also includes an “Enquire Max” button that redirects users to the adoption form page to continue the adoption process. JavaScript and JSON integration were used to dynamically update the pet details and images depending on the pet selected by the user from the browser page, creating a more interactive and personalised user experience.
 
 ### Profile Page — Muhammad Saaim (saai0013)
 
