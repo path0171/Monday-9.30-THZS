@@ -1,34 +1,56 @@
-const form = document.querySelector(".adoption-form");
+// Saaim, saai0013
+// Adoption Form JS
+// Version 1.0.1
 
-form.addEventListener("submit", function(e) {
+var form = document.querySelector(".adoption-form");
 
-    let name = document.getElementById("fullname").value.trim();
-    let email = document.getElementById("email").value.trim();
-    let phone = document.getElementById("phone").value.trim();
-    let experience = document.getElementById("experience").value.trim();
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
 
-    if (name.length < 2) {
-        alert("Please enter a valid name");
-        e.preventDefault();
-        return;
-    }
+  var name = document.getElementById("fullname").value.trim();
+  var email = document.getElementById("email").value.trim();
+  var phone = document.getElementById("phone").value.trim();
+  var experience = document.getElementById("experience").value.trim();
 
-    if (!email.includes("@") || !email.includes(".")) {
-        alert("Enter a valid email");
-        e.preventDefault();
-        return;
-    }
+  if (name.length < 2) {
+    alert("Please enter a valid name");
+    return;
+  }
 
-    if (phone.length < 8) {
-        alert("Enter a valid phone number");
-        e.preventDefault();
-        return;
-    }
+  if (!email.includes("@") || !email.includes(".")) {
+    alert("Enter a valid email");
+    return;
+  }
 
-    if (experience.length < 10) {
-        alert("Please write at least 10 characters about your experience");
-        e.preventDefault();
-        return;
-    }
+  if (phone.length < 8) {
+    alert("Enter a valid phone number");
+    return;
+  }
 
+  if (experience.length < 10) {
+    alert("Please write at least 10 characters about your experience");
+    return;
+  }
+
+  var formData = new FormData(form);
+  formData.append("action", "save_adoption");
+
+  fetch("php/data.php", {
+    method: "POST",
+    body: formData,
+  })
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (data) {
+      if (data.success) {
+        alert("Application submitted successfully!");
+        form.reset();
+      } else {
+        alert(data.message);
+      }
+    })
+    .catch(function () {
+      alert("Could not submit application. Make sure the PHP server is running.");
+    });
 });
