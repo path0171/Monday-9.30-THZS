@@ -88,8 +88,7 @@ Annotated screenshots of each page indicating function and specific page element
 
 This annotated screenshot presents the homepage of the Adopt It pet adoption website. The homepage was designed with a clean and welcoming layout to create a positive first impression for users. It includes a navigation bar for easy access to pages such as the Browser Page, Adoption Form, and Contact Us, along with a prominent “Sign Up” button that redirects users to the profile page after registration.
 
-The homepage also highlights the organisation’s mission through engaging visuals, adoption statistics, and inspirational slogans such as “Rescue. Love. Repeat.” Images of pets and families were included to create an emotional connection with users, while the partner section was added to showcase trusted organisations supporting the adoption platform. Additionally, the “More Info” button directly navigates users to the About Us page for further details about the organisation and its mission.
----
+## The homepage also highlights the organisation’s mission through engaging visuals, adoption statistics, and inspirational slogans such as “Rescue. Love. Repeat.” Images of pets and families were included to create an emotional connection with users, while the partner section was added to showcase trusted organisations supporting the adoption platform. Additionally, the “More Info” button directly navigates users to the About Us page for further details about the organisation and its mission.
 
 ### Log In — Hiruna Ranawaka (rana0302)
 
@@ -143,63 +142,57 @@ The back-end communication for the Adopt It website was mainly implemented using
 
 JavaScript was also used extensively for form validation and error handling throughout the website. For example , on the sign up page, validation ensured that the password and confirm password fields matched before allowing account creation, while error messages were displayed if invalid data was entered. Similarly, the adoption form and contact form validated user inputs such as email addresses, phone numbers, and required text fields before submission. Although the project currently focuses mainly on front-end implementation, the structure was designed with few back-end integrations as well.
 
-
 ### Security and validation (saai0013)
 
 Client-side validation checks were added in our web pages using JavaScript which improved the ease of use and reduce incorrect user input. These checks also ensured that user correctly enters all important fields such as contact number, name, and email address. This will avoid incomplete forms and enhance overall user experience by responding immediately to the user.
 
-To improve the responsiveness and user interactivity of user, CSS was added and linked to the webpages. A friendly user-interface was added  by implementing color contrast, button styling, and form layouts. Our layouts were responsive being considering that they can be used on multiple screen sizes. 
+To improve the responsiveness and user interactivity of user, CSS was added and linked to the webpages. A friendly user-interface was added by implementing color contrast, button styling, and form layouts. Our layouts were responsive being considering that they can be used on multiple screen sizes.
 
 While developing our web pages we considered basic security by using semantic HTML structure and organized file management was practiced to avoid errors and improve code readability. Backend implementation was not completely implemented, while that project structure was to be done for upcoming JSON and PHP integration. Backend data-cleaning and privileged access could have been significant in producing a final version of our website.
 
 Overall, we focused on improving validation and a simple interface design to reduce number of user errors and a long-term trustworthy experience for our users.
 
-
-
-
 ---
 
 ## Style Guide Summary (path0171)
 
-_Summarise the visual and interaction standards used across the site._
-
-Our site uses a warm, friendly pet-adoption look built around orange and cream tones. Most styling lives in [`styles/global.css`](../styles/global.css) (header, nav, footer), with each page adding its own CSS file on top.
+Our website uses various theory concepts and styling techniques to build a warm and friendly theme, built around an orange colour palette. Most of the styling comes from [`styles/global.css`](../styles/global.css) (header, nav, footer), with each page adding its own CSS file on top for individual aspects.
 
 ### Colour palette
 
-| Role       | Colour | Usage |
-| ---------- | ------ | ----- |
-| Primary    | `#fe8920` / `rgb(233, 162, 61)` | Main brand orange — nav hover, filter buttons, form accents, section headings, submit buttons |
-| Secondary  | `#e07515` / `#ffa75a` | Darker orange on button hover; contact panel right side; footer background `#ffbb80` |
-| Background | `#ffe8cc` | Warm cream page background on homepage, browser, contact, about, pet selected, adoption, and profile |
-| Text       | `#000000`, `#2c3e50`, `#888888` | Body text (black); navigation links (`#2c3e50`); secondary text such as breed labels (grey) |
+| Role       | Colour                           | Usage                                                                                                                                                                                                                              |
+| ---------- | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Primary    | `#fe8920` / `rgb(233, 162, 61)`  | Main brand orange used for nav hover, filter buttons, form accents, section headings, submit buttons, etc                                                                                                                          |
+| Secondary  | `#e07515` / `#ffa75a`            | Darker orange for button hover and contrast between sections such as contact panel right side and footer background `#ffbb80`                                                                                                      |
+| Background | `#ffe8cc`                        | Very light slightly transparent orange / cream colour used for background on homepage, browser, contact, about, pet selected, adoption, and profile                                                                                |
+| Text       | `#000000`, `#2c3e50` , `#888888` | Body text is black as it works best againts the light coloured backgrounds used. Navigation links used `#2c3e50`, following similar style to hyper links. Secondary text such as breed labels used grey for contrast againts white |
 
-White (`#ffffff`) is used for cards, filter panels, and form containers. Homepage impact headings also use **red** for emphasis on the “15 years of Impact” line.
+White (`#ffffff`) is used for all other aspects of the websites such as cards, filter panels, and form containers. Homepage impact headings also use **red** for emphasis on the “15 years of Impact” line.
 
 ### Typography
 
-| Element      | Font family | Size / weight | Usage |
-| ------------ | ----------- | ------------- | ----- |
-| Headings     | `"inter", sans-serif` (most pages); `"Times New Roman", serif` (homepage impact section) | Page titles ~45–54px bold; section headings ~18–34px; pet name ~2.5rem | Browser “Adoptable Pets”, contact “Contact Us”, filter labels, profile headings |
-| Body         | `"inter", sans-serif` | 14–16px, line-height 1.6 | Paragraphs, form labels, footer text, pet descriptions |
-| UI / buttons | `"inter", sans-serif` | 15–16px bold | Header “Sign Up” / “User Profile”, nav links, filter buttons, form submit buttons |
+| Element      | Font family                                                                                                                                                                                | Size / weight                                                                 | Usage                                                                             |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| Headings     | `"inter", sans-serif` (most pages for casual modern look, combines well with the warm themed colour palette) `"Times New Roman", serif` (homepage impact section, attention grabbing look) | Page titles ~45–54px bold; section headings ~18–34px; paragraph text ~14-16px | Browser “Adoptable Pets”, contact “Contact Us”, filter labels, profile headings   |
+| Body         | `"inter", sans-serif`                                                                                                                                                                      | 14–16px, line-height 1.6                                                      | Paragraphs, form labels, footer text, pet descriptions                            |
+| UI / buttons | `"inter", sans-serif`                                                                                                                                                                      | 15–16px bold                                                                  | Header “Sign Up” / “User Profile”, nav links, filter buttons, form submit buttons |
 
-Font Awesome 6.5 is loaded on all pages for icons (dog/cat/bird filters, social links, sliders).
+Font "Awesome 6.5" is also loaded on all pages for icons such as dog, cat and bird for filters as well as social links and sliders.
 
 ### Layout and components
 
-- **Navigation:** Sticky white header with logo (links to homepage) and orange pill button for sign-up or profile. Grey bar below with centred links (Browser, Adoption Form, Contact Us). Active/hover state uses orange text and a bottom border. Same header and nav appear on every page via shared HTML structure and [`header.js`](../scripts/Zac/header.js).
-- **Buttons and forms:** Primary actions use orange fill, white text, and rounded corners (typically 20–30px `border-radius`). Hover darkens the orange. Form inputs use a simple underline style (`border-bottom: 1px solid #fe8920`) on contact and adoption pages. Client-side validation runs in JavaScript before data is sent to PHP.
-- **Cards / listings:** Pet cards on the browser page are white boxes with rounded corners (`10px`), light shadow, and an orange section title. Clicking a card opens the pet detail page. Profile and adoption sections use white cards on the cream background with padding and subtle borders/shadows.
-- **Consistency:** All pages share the same header, navigation, footer, and orange/cream colour scheme. Page-specific CSS files only change layout and content areas, not the global chrome. Logo assets (`logo_with_text_transparent.png`, `logo_transparent.png`) are reused in the header and footer.
+- **Navigation:** Sticky white header with logo (when clicked links to homepage) and orange button for sign-up page with turns into profile page once signed in. Another grey bar sits below that contains the main navigation page links centred for visual consistancy. Hovering over the nav links (Browser, Adoption Form, Contact Us) highlights the text orange with a bottom border acting as an underline. Same header and nav bar appear on each page via a shared HTML structure and [`header.js`](../scripts/Zac/header.js).
+- **Buttons and forms:** Primary actions such as submitting forms use an orange fill with white text and rounded corner for a modern look, typically sitting around 20-30px `border-radius`. Hovering over these buttons darkens the orange and change cursor to pointer to make it clear that its clickable. Form inputs in contact us and adoption form pages use a simple underline style (`border-bottom: 1px solid #fe8920`) and example text for input. Client-side validations runs in JavaScript before data is sent to PHP, storing the messages. Requires hosted PHP to run.
+- **Cards / listings:** The pet cards on the browser page are in white boxes with 10px rounded corners and a light shadow with an orange section title for a modern look. Profile and adoption sections use white cards on the light orange / cream background with padding and subtle border shadows.
+- **Consistency:** Each page share the same header, footer and navigation. They also share the same orange colour palette providing that warm feeling. There is also CSS files for each page that handle layout, contact areas, text font, image design, padding and margins. Logo assets such as `logo_with_text_transparent.png` and `logo_transparent.png` are reused in the header and footer. Images for pets are also used across both the browser page and pet selection page.
 
 ### Accessibility
 
 - Semantic HTML is used across the site (`header`, `nav`, `main`, `footer`, `section`, `aside`, heading levels).
 - Images include `alt` text (logos, pet photos, team profiles).
-- Form fields use `<label>` elements linked to inputs; required fields are marked in HTML.
-- Colour contrast is kept readable with dark text on light backgrounds; orange is used mainly for accents and buttons with white label text.
-- Layouts use flexible widths (percentages, `max-width`, flex/grid) so content scales on different screen sizes, though the site is not fully optimised for mobile.
+- Form fields use `<label>` elements linked to inputs and required fields are marked in HTML.
+- Colour contrast is kept readable with dark text on light backgrounds and orange is used mainly for accents and buttons with white label text.
+- Layouts use flexible widths (percentages, `max-width`, flex / grid) so content scales on different screen sizes, though the site is not optimised for mobile.
 
 ---
 
@@ -215,7 +208,7 @@ _Each team member: ~300 words on the design-to-prototype process, complexity of 
 
 During the development of our Adopt It pet adoption website, I earned productive experience in making functional and interactive web pages. While doing our assignment 1, our main goal was on making user-focused designs through personas, wireframes, storyboards and user flows. In our assignment 2, I converted all of these concepts into fully functional and working web pages with the help of HTML, CSS, and JavaScript. This procedure helped me in understanding the significance of designing with both practicability and viability in mind.
 
-My main part in this website project was to develop Pet Adoption Application Form and the User Profile page. A challenge I faced during the development was to implement front-end and back-end communication without the use of external libraries. I had to cautiously structure the inputs, create both CSS and JavaScript files for data handling. Issues such as debugging, invalid file paths, inactive links, and multiple HTML elements improved my problem-solving abilities to a great extent. 
+My main part in this website project was to develop Pet Adoption Application Form and the User Profile page. A challenge I faced during the development was to implement front-end and back-end communication without the use of external libraries. I had to cautiously structure the inputs, create both CSS and JavaScript files for data handling. Issues such as debugging, invalid file paths, inactive links, and multiple HTML elements improved my problem-solving abilities to a great extent.
 Another key aspect of our website was to make sure the website is user friendly and easily accessible for all users. I did my best to apply adaptive and intuitive designs, clear navigation and semantic HTML and visual structure to improve ease of reading across multiple screen sizes. Validation checks using JavaScript were also added to avoid input errors and improve overall user experience.
 
 To achieve successful development, our project was made using systematic folder structures which were named as per each individual team members to avoid confusions. Our team members also collaborated through GitHub to experience the importance of working in a team environment, communication and maintain professional coding practices. Overall, my concepts of web development were strengthened while working for this assessment.
@@ -243,4 +236,3 @@ In relation to this assignment, there have been several lessons I learned in reg
 Apart from designing the pages, I managed to develop CSS styles for the whole web application and create header, footer, and navigation bar for the website. At the same time, thanks to the changes made by my teammates to the pages, the issue of redundancy could be avoided while creating the web application. Nevertheless, there were still some challenges I had to deal with like the website contained lots of similarities in terms of color, fonts, and spaces used. Therefore, it was important to stick to the existing design and making that the common parts were all the same.
 
 To achieve a successful webpage, I think that communication within the team and planning accurately before starting is crucial and I think that assignment 1 – UX design report helped us a lot where we planned out on how are web page is going to look with the help of the wireframes and storyboards that we designed. Also, we found it difficult at that start on how to think of working together on the same set of pages at once and then we figured it out through GitHub where it helped us to work on our individual pages separately but at the same time. Overall, during this project I gained a lot of knowledge regarding web development and improved my coding practices as well.
-
