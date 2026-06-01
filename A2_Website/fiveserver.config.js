@@ -1,5 +1,4 @@
 module.exports = {
-    php: "/opt/homebrew/bin/php", // Points to your Mac's Homebrew PHP installation
-    injectBody: true              // Enables instant live reloading
-  }
-  
+    proxy: "http://localhost:8000", // Redirects all traffic to your real PHP server
+    navigate: true                 // Keeps your browser in sync with your active file
+}
