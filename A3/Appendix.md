@@ -52,17 +52,42 @@ Methodology results (Thinking Aloud Process):
 Saai0013
 Submitting an Application, navigating the pet selected
 
-Test Participants:
-[MEMBER 1] (appendix 1)
-Description:
-Task perfromed:
-Methodology results (Observation):
+Test Participate 1: Anabella
 
+Description: The first test participant is Anabella a 21 year-old student at university. She prefers to shop products and services online using her laptop. She was aware of all types of web applications and had a little bit digital literacy but she never used a pet adoption website. The testing tasks were carried out using Google Chrome on windows laptop.
 
-[MEMBER 2] (appendix 2)
-Description:
+Task perfromed - Submitting an Adoption Application:
+Anabella was instructed to navigate to the application page, fill up all her details and then submit an application.
+
+Initially, through navigation menu she navigated to the pet application page. Then, she viewed the pet images there and began to fill up her personal details. Next, she choose to adopt a pet using pet dropdown menu. After that, she typed her previous pet experience in that specific field and finally pressed the submit application button.
+
+Methodology results - Observation:
+Anabella's observation during the testing were noted down and are as follows:
+
+1. Participant was able to easily understand page layout without any hesitation.
+2. There was no difficulty in locating navigation menu.
+3. Participant expected some enhanced confirmation response before pressing the submit button.
+4. Participant suggested to add a popup after final submission of the adoption application.
+5. She also appreciated the pet images and responsive and user-friendly layout.
+
+Test Participate 2: Novera Aayan
+
+Description: Second participant is a 20 year old undergraduate student at university studying Accounting and Finance. She has a high digital literacy of modern technology and completed our testing on her mobile phone using Google Chrome.
+
 Task perfromed:
-Methodology results (Pre-test Questions):
+She was instructed to start with the Browse Pets page, choose a pet and go through the details of that specific pet.
+
+Firstly, she opened the Browser Page using the navigation menu and looked through all the pets and then opted for a dog named "Rocky".Then, she went through all the information of Rocky and finally navigated to the application form page.
+
+Methodology results - Pre-test Questions:
+1. How familiar are you with latest websites and forms?
+Ans. I frequently use online services, and shopping websites.
+
+2. Have you used a pet adoption website earlier?
+Ans. No, I have never used but I am familiar with similar web pages and layputs.
+
+3. What are your expectations from a pet adoption webiste?
+Ans. All the pet information must be clear, navigation and layouts should be user-friendly and responsive with a simple process for adoption.
 
 Path0171
 Filtering to find a specific dog, Contacting people
