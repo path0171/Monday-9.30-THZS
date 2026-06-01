@@ -16,23 +16,40 @@ Hi [NAME]
 
 DONE BY TN
 
-Hiruna
-Tasks: Sign Up, Navigation to about us page from home page
+Rana0302
+Sign Up, Navigation to about us page from home page
 
-Test Participants:
+Test Participant 1: Kinura 
 
-[MEMBER 1] (appendix 1)
 Description:
-Task perfromed:
+    The first test participant is Kinura, a 24-year-old postgraduate student. He regularly uses a Lenovo laptop for both academic and work-related tasks, making him confident and comfortable when using technology and navigating websites. However, he has no background in programming or web development, so he approaches the website from the perspective of a typical end user.
+
+    Kinura moved from Sri Lanka to Australia four years ago and had to leave his pet dog behind when he migrated. Since then, he has missed having a pet companion and is currently interested in adopting a pet to help overcome feelings of loneliness. As someone actively looking to adopt a pet, he represents a realistic target user for the Adopt It website
+Task perfromed - Sign Up process
+    The participant was asked to complete the sign-up process by creating a new account on the Adopt It website. This task involved navigating to the sign-up page, entering the required personal information such as name, email and also creating and confirming a password, and submitting the request by clicking the sign me up button. The objective was to evaluate how easily a first-time user (Kinura) could locate the sign-up page, understand the required fields, complete it successfully, and receive feedback from the system during the registration process. This task also tested the effectiveness of the overall user experience for new users.
 Methodology results (Post Test Questions):
+    1.	How was your overall experience in the signup process?
+        
+        During the post-test interview, Kinura provided positive feedback regarding the overall sign-up process and found it very easy to complete. 
+    
+    2.	Are there any areas that you think we should change to make this more user friendly?
+        
+        He suggested that the registration  should include a phone number field. According to him, providing a phone number would improve account security by allowing additional verification methods and make it easier for users to receive important notifications and updates. He explained that he rarely checks his email, so receiving alerts through a phone number would be more convenient and ensure that he does not miss important information related to pet adoption enquiries and account activity. This feedback highlights a potential improvement that could enhance both the usability and functionality of the sign-up process.
 
-
-[MEMBER 2] (appendix 2)
+Test Participant 2: Mark
 Description:
-Task perfromed:
-Methodology results (Thinking Aloud Process):
+    The second test participant is Mark, a 65-year-old retired army soldier. Due to his age and previous career, he has had limited exposure to modern technology and does not use digital devices frequently. He owns an older desktop computer at home, which he uses only for basic tasks such as browsing the internet and checking information when necessary. As a result, he is not highly confident when navigating websites and can sometimes find complex interfaces confusing.
 
-Saaim
+    Following the passing of his wife, Mark has been looking for a dog companion to help cope with loneliness and boredom. Having spent much of his life serving in the military and working closely with fellow soldiers, he is fond of being surrounded by people for most of his life and finds living alone challenging. As a potential pet adopter, Mark values simplicity and efficiency when using websites. He prefers having clear navigation, easy access to important information, and straightforward processes that do not require excessive clicking or searching. 
+
+Task perfromed: - Navigating to various locations in search of a pet
+    Mark was asked to navigate through the Adopt It website to search for a suitable pet. This task involved browsing different sections of the website, viewing available pets, accessing individual pet profiles, and locating relevant information that could help him make an adoption decision. The objective was to evaluate how easily an older user with limited technological experience could navigate the website, find desired information, and move between pages without confusion. This task also assessed the effectiveness of the website’s navigation structure, clarity of labels, and overall accessibility for users who prefer quick and straightforward access to information.
+Methodology results (Thinking Aloud Process):
+    During the think-aloud session, Mark commented that he found the website easy to navigate overall. He was able to move from the sign-up page to the browser page, select a pet, and access the adoption form without experiencing any major difficulties. He appreciated the straightforward navigation and felt that the adoption process was simple to follow, even with his limited experience using technology.
+
+    However, Mark encountered an issue when he wanted to learn more about the organisation before proceeding with the adoption process as he was concern regarding the companies effectiveness and background. After signing up, he looked for information about the company but was unable to immediately locate the About Us page. When he asked me where he could find this information, I showed him that it was accessible through the small “About” link in the footer and through the “More Info” button on the homepage. Mark expressed dissatisfaction with both options. He felt that the footer link was too small and difficult to notice, while the “More Info” button on the homepage was not prominent enough to attract his attention. As a result, he suggested adding an About Us option directly to the main navigation bar. According to Mark, this would make company information much easier to find and improve the overall user experience as it is a very important feature, particularly for older users who prefer clear and visible navigation options.
+
+Saai0013
 Submitting an Application, navigating the pet selected
 
 Test Participants:
@@ -47,7 +64,7 @@ Description:
 Task perfromed:
 Methodology results (Pre-test Questions):
 
-Zac
+Path0171
 Filtering to find a specific dog, Contacting people
 
 Test Participate 1: Joel
