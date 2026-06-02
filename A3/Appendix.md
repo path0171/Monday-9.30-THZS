@@ -11,15 +11,12 @@ Appendix: should include all required materials to recreate your UX evaluation t
     Data captured
     Supporting observational data (screenshots, photos, etc.).  
 
-Universal Testing Script:
-Hi [NAME]
-
-DONE BY TN
 
 Rana0302
 Sign Up, Navigation to about us page from home page
 
-Test Participant 1: Kinura 
+Appendix 1
+Test Participant 1: 5 
 
 Description:
     The first test participant is Kinura, a 24-year-old postgraduate student. He regularly uses a Lenovo laptop for both academic and work-related tasks, making him confident and comfortable when using technology and navigating websites. However, he has no background in programming or web development, so he approaches the website from the perspective of a typical end user.
@@ -36,6 +33,7 @@ Methodology results (Post Test Questions):
         
         He suggested that the registration  should include a phone number field. According to him, providing a phone number would improve account security by allowing additional verification methods and make it easier for users to receive important notifications and updates. He explained that he rarely checks his email, so receiving alerts through a phone number would be more convenient and ensure that he does not miss important information related to pet adoption enquiries and account activity. This feedback highlights a potential improvement that could enhance both the usability and functionality of the sign-up process.
 
+Appendix 2
 Test Participant 2: Mark
 Description:
     The second test participant is Mark, a 65-year-old retired army soldier. Due to his age and previous career, he has had limited exposure to modern technology and does not use digital devices frequently. He owns an older desktop computer at home, which he uses only for basic tasks such as browsing the internet and checking information when necessary. As a result, he is not highly confident when navigating websites and can sometimes find complex interfaces confusing.
@@ -52,6 +50,7 @@ Methodology results (Thinking Aloud Process):
 Saai0013
 Submitting an Application, navigating the pet selected
 
+Appendix 3
 Test Participate 1: Anabella
 
 Description: The first test participant is Anabella a 21 year-old student at university. She prefers to shop products and services online using her laptop. She was aware of all types of web applications and had a little bit digital literacy but she never used a pet adoption website. The testing tasks were carried out using Google Chrome on windows laptop.
@@ -70,6 +69,7 @@ Anabella's observation during the testing were noted down and are as follows:
 4. Participant suggested to add a popup after final submission of the adoption application.
 5. She also appreciated the pet images and responsive and user-friendly layout.
 
+Appendix 4
 Test Participate 2: Novera Aayan
 
 Description: Second participant is a 20 year old undergraduate student at university studying Accounting and Finance. She has a high digital literacy of modern technology and completed our testing on her mobile phone using Google Chrome.
@@ -92,6 +92,7 @@ Ans. All the pet information must be clear, navigation and layouts should be use
 Path0171
 Filtering to find a specific dog, Contacting people
 
+Appendix 5
 Test Participate 1: Joel
 Description:
 The first test participant was a 19-year-old university student named Joel. He uses a 13-inch M1 MacBook Air for daily study and personal use. He is comfortable with using tech and navigating websites; however, he is not a developer. He has never explored or adopted through a pet adoption website before. The website was tested on his laptop using Google Chrome, and he had no prior briefing on the layout of the site, only a short description of what the website is for. He represents a younger and tech-literate adopter who wants to narrow down options quickly rather than scroll through every animal.
@@ -151,7 +152,7 @@ Comment: Yes, if all pages follow a similar style and experience, I could effect
 Rating: 5
 Comment: Yes, I was overall satisfied with the experience, with only mild frictions here and there, such as the card details and Noarlunga spelling. However, these did not affect my overall satisfaction. I also loved the design of the website; it was appealing, and the small animations were not overwhelming, often making the website easier to navigate.
 
-
+Appendix 6
 Test Participate 2: Graham
 Description: 
 The second participant is a 55-year-old male named Graham, who is a full-time construction planner. He uses a desktop computer for scheduling, email and document review, and is proficient in software such as Revit and Excel. He is comfortable with standard web forms but prefers clear labels and does not like overwhelming animations that he sees on modern websites. Graham has never used a pet adoption site before, so he is new to the website style. The task was tested on a Windows desktop using Google Chrome, with no prior experience of the website.
