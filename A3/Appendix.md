@@ -16,7 +16,7 @@ Rana0302
 Sign Up, Navigation to about us page from home page
 
 Appendix 1
-Test Participant 1: 5 
+Test Participant 1: Kinura 
 
 Description:
     The first test participant is Kinura, a 24-year-old postgraduate student. He regularly uses a Lenovo laptop for both academic and work-related tasks, making him confident and comfortable when using technology and navigating websites. However, he has no background in programming or web development, so he approaches the website from the perspective of a typical end user.
