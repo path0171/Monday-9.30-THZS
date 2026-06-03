@@ -1,4 +1,4 @@
-DONE BY 12PM TUESDAY
+
 
 Usability Test Plan (300-400 words): clear objectives for the testing process.
 

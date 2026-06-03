@@ -1,6 +1,12 @@
-DONE BY 12PM WEDNESDAY
+
 Testing Summary and Analysis (500-750 words): report of results from the testing process.
-Summarise the process and outcomes of your usability tests, i.e., what is the data. (200 words) (Hiruna)
+Summarise the process and outcomes of your usability tests, i.e., what is the data. (200 words) (Hiruna - Rana0302)
+
+The usability testing process involved six participants with varying ages, backgrounds, and levels of digital literacy completing a set of tasks on the Adopt It website. Participants were asked to create an account, browse available pets, view pet profiles, submit an adoption application, complete the Contact Us form, and access information through the User Profile page. These tasks were designed to evaluate both the website’s usability and its back-end functionality, including form validation and data handling. Testing was conducted on a range of devices, including laptops, desktops, and mobile phones, to assess responsiveness and consistency across platforms.
+
+Data was collected through a combination of pre-test questionnaires, post-test questionnaires, think-aloud protocols, observations, surveys, and Single Ease Question (SEQ) responses. This approach provided both qualitative and quantitative data regarding user satisfaction, ease of navigation, task completion, and overall website performance.
+
+The results indicated that all participants were able to complete the assigned tasks successfully. Most users found the website visually appealing, easy to understand, and efficient to navigate. Feedback highlighted the effectiveness of the pet browsing and adoption process, as well as the usefulness of the form validation features. However, some participants experienced difficulty locating certain information, particularly the About Us page. Overall, the collected data demonstrated strong usability while identifying areas where navigation visibility could be improved.
 
 Analyse the collected data, identifying key findings, common pain points, and areas of success. (400 words) (Saaim - saai0013)
 
@@ -16,4 +22,13 @@ Moreover, the users also faced a minor issue when using their mobile phones for 
 
 Covering all, our observed data reflected that our website was a success and followed all the necessary pet adoption workflow while also highlighting few areas where improvement is to be done in upcoming design iterations.
 
-Prioritise at least 3 significant usability issues to address and why they are important, chosen over other issues metioned above (150 words) (Hiruna)
+Prioritise at least 3 significant usability issues to address and why they are important, chosen over other issues metioned above (150 words) (Hiruna - Rana0302)
+
+Three significant usability issues were prioritised based on feedback gathered during testing.First was the poor visibility of the About Us page, identified by Mark. Although he found the site easy to navigate, he struggled to locate information about the organisation before proceeding with adoption. He suggested adding an About Us option to the navigation bar, because trust and credibility are important factors in making adoption decisions.
+
+The second issue was the absence of a phone number field during account registration, suggested by Kinura, who noted it would improve security verification and provide a more convenient way to receive adoption-related notifications and alerts.
+
+The third issue, raised by Graham, was the lack of clear input guidance in forms. He was uncertain about the required phone number format on the Contact Us page and suggested clearer instructions. 
+
+These issues were prioritised as they directly affect user trust, error prevention, and task completion.
+
